@@ -14,7 +14,7 @@
 		</a>
 
 		<div class = "kanan_header">
-			<a href = "">
+			<a href = "{{ url('/view') }}">
 				<div class = "toko">
 					<span class = "tulisantoko">Toko</span> 
 				</div>

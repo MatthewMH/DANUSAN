@@ -1,0 +1,105 @@
+body{
+  	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.kanan-atas{
+	position: absolute;
+	left: 900px;
+	width : 91px;
+	height: 62px;
+}
+.orang-dalem{
+	position: absolute;
+	left: 21px;	
+	right: 15.97%;
+	top: 61px;
+	bottom: 96.93%;
+}
+.lingkar-luar{
+	position: absolute;
+	left: 10px;	
+	right: 15.97%;
+	top: 55px;
+	bottom: 96.93%;
+}
+.username{
+	position: absolute;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	left: 80px;	
+	right: 15.97%;
+	top: 70px;
+	bottom: 96.93%;
+	white-space : pre;
+}
+.danusan{
+	position: absolute;
+	left: 140px;
+	right: 78.53%;
+	top: 62px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.arrow{
+	position: absolute;
+	left: 60px;
+	right: 78.53%;
+	top: 43px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.kotak-tulisan{
+	position: absolute;
+	left: 97px;
+	top: 190px;
+	bottom: 82.76%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	width: 1100px;
+	height: 90px;
+}
+.tulisan-riwayat{
+	position: absolute;
+	left: 10.27%;
+	right: 54.2%;
+	top: 11.87%;
+	bottom: 84.62%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 72px;
+	color: #744D37;
+	white-space: pre;
+}
+.tabel{
+	position: absolute;
+	left: 50px;
+	top: 350px;
+	border: 1px solid #B9B9B9;
+	width: 900px;
+	height: 100px;
+	box-sizing: border-box;
+}
+.header-tabel{
+	background: rgba(0, 0, 0, 0.05);
+}
+th{
+	padding: 30px 30px 30px 30px;
+}
+.gambartabel{
+	width: 70px;
+	height: 70px;
+}

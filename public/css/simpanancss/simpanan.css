@@ -1,0 +1,131 @@
+body{
+  	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.kanan-atas{
+	position: absolute;
+	left: 900px;
+	width : 91px;
+	height: 62px;
+}
+.orang-dalem{
+	position: absolute;
+	left: 21px;	
+	right: 15.97%;
+	top: 61px;
+	bottom: 96.93%;
+}
+.lingkar-luar{
+	position: absolute;
+	left: 10px;	
+	right: 15.97%;
+	top: 55px;
+	bottom: 96.93%;
+}
+.username{
+	position: absolute;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	left: 80px;	
+	right: 15.97%;
+	top: 70px;
+	bottom: 96.93%;
+	white-space : pre;
+}
+.danusan{
+	position: absolute;
+	left: 140px;
+	right: 78.53%;
+	top: 62px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.arrow{
+	position: absolute;
+	left: 60px;
+	right: 78.53%;
+	top: 43px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.penampung{
+	position: absolute;
+	width: 1170px;
+	height: 394px;
+	left: 70px;
+	top: 200px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	overflow-y: scroll;
+}
+.kotak-dalem{
+	position: absolute;
+	width: 500px;
+	height: 120px;
+	left: 330px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(250, 149, 32, 0.5);
+	border-radius: 30px;
+}
+.tulisan-dalem{
+	position: absolute;		
+	width: 400px;
+	height: 32px;
+	left: 90px;
+	top: 20px;
+	font-family: Port Lligat Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+	color: #744D37;
+	white-space: pre;
+	border: none;
+	outline: none;
+}
+.telepon{
+	position: absolute;
+	width: 400px;
+	height: 39px;
+	top: 49px;
+	left: 80px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: #744D37;
+	white-space: pre;
+	border: none;
+	outline: none;
+	text-align: center;
+}
+.button-view{
+	position: absolute;
+	background-color: #FA9520;
+	border-radius: 30px;
+	top: 90px;
+	left: 400px;
+	cursor: pointer;
+}
+.button-delete{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	background-color: #F54E37;
+	border-radius: 30px;
+	cursor: pointer;
+}

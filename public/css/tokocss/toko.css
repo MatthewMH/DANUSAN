@@ -1,0 +1,213 @@
+body{
+  	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.kanan-atas{
+	position: absolute;
+	left: 900px;
+	width : 91px;
+	height: 62px;
+}
+.orang-dalem{
+	position: absolute;
+	left: 21px;	
+	right: 15.97%;
+	top: 61px;
+	bottom: 96.93%;
+}
+.lingkar-luar{
+	position: absolute;
+	left: 10px;	
+	right: 15.97%;
+	top: 55px;
+	bottom: 96.93%;
+}
+.username{
+	position: absolute;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	left: 80px;	
+	right: 15.97%;
+	top: 70px;
+	bottom: 96.93%;
+	white-space : pre;
+}
+.danusan{
+	position: absolute;
+	left: 140px;
+	right: 78.53%;
+	top: 62px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.arrow{
+	position: absolute;
+	left: 60px;
+	right: 78.53%;
+	top: 43px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.kotak-nama{
+	position: absolute;
+	width: 1282px;
+	height: 182px;
+	left: 0px;
+	top: 169px;
+	background: #F4BB79;
+}
+.save-button{
+	position: absolute;
+	width: 120px;
+	height: 89px;
+	left: 115px;
+	top: 30px;
+	cursor: pointer;
+}
+.delete-button{
+	position: absolute;
+	width: 120px;
+	height: 89px;
+	left: 115px;
+	top: 30px;
+	cursor: pointer;
+	background-color: #F54E37;
+}
+.tulisan-toko{
+	position: absolute;
+	width: 500px;
+	height: 77px;
+	left: 271px;
+	top: 25px;
+	font-family: Port Lligat Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 69px;
+	text-align: left;
+	color: #744D37;
+	white-space: pre;
+	border: none;
+	outline: none;
+	background-color: #F4BB79;
+}
+.tulisan-telepon{
+	position: absolute;
+	width: 187px;
+	height: 45px;
+	left: 328px;
+	top: 90px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #744D37;
+	white-space: pre;
+}
+.telepon{
+	position: absolute;
+	width: 33px;
+	height: 32px;
+	left: 281px;
+	top: 90px;
+}
+.pajangan{
+	position: absolute;
+	width: 1282px;
+	height: 366px;
+	left: 0px;
+	top: 389px;
+	overflow-x: scroll;
+}
+.etalase-makanan{
+	position: absolute;
+	width: 400px;
+	height: 320.53px;
+	top: 0px;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+.button-beli{
+	position: absolute;
+	width: 151.88px;
+	height: 34.94px;
+	left: 225.92px;
+	top: 300.69px;
+	background: #FA9520;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.keranjang{
+	position: absolute;
+	width: 40.5px;
+	height: 34.94px;
+	left: 348.3px;
+	top: 300.69px;
+	cursor: pointer;
+}
+.harga{
+	position: absolute;
+	width: 88.09px;
+	height: 20.96px;
+	left: 264.76px;
+	top: 240.79px;
+	font-family: Viga;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FA9520;
+	border: none;
+	outline: none;
+}
+.gambar{
+	position: absolute;
+	width: 335.7px;
+	height: 200.49px;
+	left: 30.15px;
+	top: 10.48px;
+}
+.nama-makanan{
+	position: absolute;
+	width: 194.4px;
+	height: 19.22px;
+	left: 35.15px;
+	top: 240.79px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #4F423E;
+	border: none;
+	outline: none;
+}
+.kotak-zoom{
+	position: absolute;
+	left: 0;
+	right: 0.67%;
+	top: 9.46%;
+	bottom: 0%;
+	background: #FFFFFF;
+	border-radius: 60px;
+	width: 0;
+	height: 100px;
+}
+.hidden-toko{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: -1;
+}

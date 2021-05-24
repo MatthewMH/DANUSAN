@@ -1,0 +1,105 @@
+body{
+  	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.tulisan-utama{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	padding-top: 45px;
+}
+.danusan{
+	position: absolute;
+	left: 140px;
+	right: 78.53%;
+	top: 62px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.arrow{
+	position: absolute;
+	left: 60px;
+	right: 78.53%;
+	top: 43px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.etalase{
+	position: absolute;
+	width: 705px;
+	height: 210px;
+	left: 300px;
+	top: 250px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(250, 149, 32, 0.7);
+	border-radius: 30px;
+}
+.tulisan-etalase{
+	position: absolute;
+	width: 350px;
+	height: 60px;
+	left: 300px;
+	top: 10px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: center;
+	color: #FA9520;
+	white-space: pre;
+	border: none;
+	outline : none;
+}
+.alamat-etalase{
+	position: absolute;
+	width: 343px;
+	height: 61px;	
+	left: 320px;
+	top: 110px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+	border: none;
+	outline: none;
+}
+.tombol-etalase{
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	left: 570px;
+	top: 165px;
+	background-color: #FA9520;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.gambar-etalase{
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	left: 30px;
+	top: 20px;
+	border-radius: 30px;
+}
+.not-found{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	padding-top: 100px;
+}	

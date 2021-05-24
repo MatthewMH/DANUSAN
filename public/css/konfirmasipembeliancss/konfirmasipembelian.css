@@ -1,0 +1,134 @@
+body{
+  	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.judul{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	padding-top: 45px;
+}
+.kotak{
+	position: absolute;
+	top: 160px;
+	left: 140px;
+	background: #FFFFFF;
+	border-radius: 30px;
+	width: 400px;
+	height: 420px;
+}
+.gambar{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 97px;
+	top: 50px;
+}
+.tulisan-toko{
+	width: 200px;
+ 	color: rgba(115,77,55,1);
+ 	position: absolute;
+  	top: 20px;
+  	left: 90px;
+  	font-family: Poppins;
+  	font-weight: Bold;
+  	font-size: 14px;
+  	opacity: 1;
+  	text-align: center;
+  	white-space: pre;
+  	border: none;
+  	outline: none;
+}
+.nama-makanan{
+	position: absolute;
+	top: 260px;
+	left: 80px;
+	color: rgba(115,77,55,1);
+	font-family: Poppins;
+  	font-weight: Bold;
+  	font-size: 14px;
+  	opacity: 1;
+}
+.jumlah-pembelian{
+	position: absolute;
+	top: 290px;
+	left: 80px;
+	color: rgba(115,77,55,1);
+	font-family: Poppins;
+  	font-weight: Bold;
+  	font-size: 14px;
+  	opacity: 1;
+}
+.satuan{
+	position: absolute;
+	top: 320px;
+	left: 80px;
+	color: rgba(115,77,55,1);
+	font-family: Poppins;
+  	font-weight: Bold;
+  	font-size: 14px;
+  	opacity: 1;
+}
+.total{
+	position: absolute;
+	top: 350px;
+	left: 80px;
+	color: rgba(115,77,55,1);
+	font-family: Poppins;
+  	font-weight: Bold;
+  	font-size: 14px;
+  	opacity: 1;
+}
+.tulisan{
+	position: absolute;
+	left: 600px;
+}
+.teks-kanan{
+	position: absolute;
+	width: 650px;
+	height: 300px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #FA9520;
+}
+.cancel{
+	position: absolute;
+	top : 200px;
+	left: 400px;
+	width: 100px;
+	height: 50px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #F01031;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+}
+.buy{
+	position: absolute;
+	top : 200px;
+	left: 150px;
+	width: 80px;
+	height: 50px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #3ABF7C;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+}

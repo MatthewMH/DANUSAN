@@ -63,8 +63,8 @@ body {
   position: absolute;
   width: 120px;
   height: 23px;
-  left: 730px;
-  top: 460px;
+  left: 83px;
+  top: 305px;
   bottom: 50%;
   border: 2px solid #744D37;
   box-sizing: border-box;
@@ -119,7 +119,7 @@ body {
 }
 .v409_91 {
   width: 266px;
-  height: 246px;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -135,7 +135,7 @@ body {
   background: rgba(196,196,196,0.30000001192092896);
   opacity: 1;
   position: absolute;
-  top: 17px;
+  top: 60px;
   left: 9px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -147,7 +147,7 @@ body {
   width: 45px;
   color: rgba(115,77,55,1);
   position: absolute;
-  top: 0px;
+  top: 40px;
   left: 15px;
   font-family: Poppins;
   font-weight: Bold;
@@ -161,7 +161,7 @@ body {
   background: rgba(196,196,196,0.30000001192092896);
   opacity: 1;
   position: absolute;
-  top: 70px;
+  top: 110px;
   left: 10px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -173,7 +173,7 @@ body {
   width: 118px;
   color: rgba(115,77,55,1);
   position: absolute;
-  top: 50px;
+  top: 90px;
   left: 15px;
   font-family: Poppins;
   font-weight: Bold;
@@ -187,7 +187,7 @@ body {
   background: rgba(196,196,196,0.30000001192092896);
   opacity: 1;
   position: absolute;
-  top: 120px;
+  top: 160px;
   left: 10px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -199,7 +199,7 @@ body {
   width: 89px;
   color: rgba(115,77,55,1);
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 10px;
   font-family: Poppins;
   font-weight: Bold;
@@ -213,7 +213,7 @@ body {
   background: rgba(196,196,196,0.30000001192092896);
   opacity: 1;
   position: absolute;
-  top: 170px;
+  top: 210px;
   left: 10px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -225,7 +225,7 @@ body {
   width: 75px;
   color: rgba(115,77,55,1);
   position: absolute;
-  top: 150px;
+  top: 190px;
   left: 12px;
   font-family: Poppins;
   font-weight: Bold;
@@ -239,7 +239,7 @@ body {
   background: rgba(196,196,196,0.30000001192092896);
   opacity: 1;
   position: absolute;
-  top: 215px;
+  top: 255px;
   left: 9px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -251,11 +251,16 @@ body {
   width: 178px;
   color: rgba(115,77,55,1);
   position: relative;
-  top: 60px;
+  top: 100px;
   left: 14px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 14px;
   opacity: 1;
   text-align: center;
+}
+.form{
+  position: absolute;
+  left: 650px;
+  top: 145px;
 }
