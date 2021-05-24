@@ -20,8 +20,8 @@ class TransaksiController extends Controller
             $transaksi->idorang = Auth()->user()->id;
             $transaksi->idtoko = $idtoko;
             $transaksi->idmakanan = $idmakanan;
-            $transaksi->tanggaltransaksi = date("d m Y");
-            $transaksi->tanggalpengambilan = date("d m Y", strtotime('+3 days'));
+            $transaksi->tanggaltransaksi = date("d-m-Y");
+            $transaksi->tanggalpengambilan = date("d-m-Y", strtotime('+3 days'));
             $transaksi->jumlah = $request->jumlah;
             $transaksi->totalharga = $request->total;
             $transaksi->save();
