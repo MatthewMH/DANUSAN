@@ -18,8 +18,10 @@ class CreateTransaksiTable extends Migration
             $table->foreignId('idmakanan')->references('id')->on('makanan');
             $table->foreignId('idorang')->references('id')->on('orangdanusan');
             $table->foreignId('idtoko')->references('id')->on('toko');
-            $table->dateTime('tanggaltransaksi');
-            $table->dateTime('tanggalpengambilan');
+            $table->date('tanggaltransaksi');
+            $table->date('tanggalpengambilan');
+            $table->bigInteger('jumlah');
+            $table->bigInteger('totalharga');
         });
     }
 
@@ -33,3 +35,4 @@ class CreateTransaksiTable extends Migration
         Schema::dropIfExists('transaksi');
     }
 }
+
