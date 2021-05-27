@@ -54,7 +54,7 @@
     			<div class = "etalase" style = "top: <?php echo $tinggi?>px">
     				<form method = "post" action = "{{ url('/home/'.$pemilik->namatoko.'/'.Auth()->user()->id) }}">
     					{{ csrf_field() }}
-    				<img src = "{{ URL::asset('images/homeimages/arrow.png')}}" class = "gambar-etalase">
+    				<img src = "{{ URL::asset('external_images/'.$pemilik->namatoko.'/Profile.jpg')}}" class = "gambar-etalase">
     				<input type = "text" class = "tulisan-etalase" value = "{{ $pemilik->namatoko }}" name = "namatoko" readonly>
     				<input type ="text" class = "alamat-etalase" value = "{{ $alamat->where('id', $pemilik->idalamat)->first()->jalan }}, {{ $alamat->where('id', $pemilik->idalamat)->first()->kabupatenkota}}, {{ $alamat->where('id', $pemilik->idalamat)->first()->provinsi }}" name = "alamat" readonly>
     				<input type = "submit" value = "Lihat Toko" class = "tombol-etalase">
