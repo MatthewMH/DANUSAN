@@ -32,7 +32,8 @@
 		</tr>
 		@php
 			$i = 0;
-			$now = date("Y m d");
+			$now = date("Y-m-d");
+			$now = strtotime($now);
 		@endphp
 		@foreach($transaksi as $transaksi)
 			<tr>
@@ -43,7 +44,10 @@
 				<th>Rp {{ $transaksi->totalharga }}</th>
 				<th>{{ $transaksi->tanggaltransaksi }}</th>
 				<th>{{ $transaksi->tanggalpengambilan }}</th>
-				@if($now > $transaksi->tanggalpengambilan)
+				@php
+					$take = strtotime($transaksi->tanggalpengambilan);
+				@endphp
+				@if($now > $take)
 					<th>DONE</th>
 				@else
 					<th>IN PROGRESS</th>
