@@ -1,53 +1,32 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="left"><a href="Danusan" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Danusan
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Anggota Kelompok 16:
+1. Matthew Martianus Henry
+2. Lee Roy Akbar
+3. Amira Nabila Rakhmat
+4. Ainun Fadhilah Az-Zahida
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Latar Belakang
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+   Fundraising merupakan proses mempengaruhi masyarakat baik perorangan atau lembaga agar menyalurkan dana, sumber daya non-dana, simpati atau dukungan kepada komunitas. Di perguruan tinggi, banyak mahasiswa yang mulai aktif dalam kegiatan kepanitiaan atau organisasi. Kepanitiaan maupun organisasi di kampus akan mengadakan suatu kegiatan yang terkadang dananya tidak tersedia atau tidak mencukupi. Pemenuhan kebutuhan dana tersebut sering kali dilakukan dengan berjualan makanan kecil (danusan).    
+    Pada masyarakat, penggalangan dana biasanya dilakukan untuk kegiatan tertentu. Penggalangan dana di masyarakat pada umumnya lebih kepada sumbangan sukarela, namun tak sedikit pula penggalangan dana untuk acara umum yang biasanya dilakukan dengan danusan. Panitia acara sekolah yang hendak mengadakan suatu kegiatan yang membutuhkan dana, misal perpisahan kelas, outbond, dan lain lain pada umumnya akan melakukan penggalangan dana dengan berjualan makanan kecil pada teman sebayanya. Selain itu, penggalangan dana juga dilakukan untuk memenuhi kebutuhan hidup. Tak sedikit pula orang yang berjualan makanan kecil di kantornya sebagai pekerjaan sampingan.
+    Namun, banyak kepanitiaan, organisasi, maupun usaha perorangan yang kurang informasi mengenai distributor makanan danusan baik dari segi harga maupun lokasi distributor. Masalah tersebut yang nantinya akan terselesaikan dengan adanya web Danusan. Pada web ini, baik anggota organisasi, kepanitiaan, usaha sampingan perorangan, dan sebagainya akan dengan mudah menemukan distributor makanan danusan di sekitarnya. 
 
-## Learning Laravel
+### Tujuan
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. Mempermudah kontak antara pemilik toko makanan danusan dengan seseorang yang hendak berjualan danusan.
+2. Mempermudah seseorang yang hendak danusan dalam mencari toko makanan kecil beserta harga dan lokasi tokonya.
+3. Mempermudah pemilik toko makanan danusan untuk mendapatkan pelanggan.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### User Profil
+Target dari aplikasi kita adalah seorang yang ingin mencoba usaha Danusan namun kebingungan mencari toko yang menyediakan berbagai macam jenis kue. 
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### User Story
+-
 
 ## Code of Conduct
 
