@@ -33,9 +33,9 @@
         			$alamat = DB::table('alamat')->where('id', $pemilik->idalamat)->first();
         		@endphp
     			<div class = "etalase" style = "top: <?php echo $tinggi?>px">
-    				<form method = "post" action = >
+    				<form method = "get" action = "{{ url('/login') }}">
     					{{ csrf_field() }}
-    				<img src = "{{ URL::asset('images/homeimages/arrow.png')}}" class = "gambar-etalase">
+    				<img src = "{{ URL::asset('external_images/'.$pemilik->namatoko.'/Profile.jpg')}}" class = "gambar-etalase">
     				<span class = "tulisan-etalase">{{ $pemilik->namatoko }}</span>
     				<span class = "alamat-etalase">{{ $alamat->jalan }}, {{ $alamat->kabupatenkota}}, {{ $alamat->provinsi }} </span>
     				<input type = "submit" value = "Lihat Toko" class = "tombol-etalase">
