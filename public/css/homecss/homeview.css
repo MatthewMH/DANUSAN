@@ -241,7 +241,7 @@ a{
 	border-radius: 30px;
 }
 .tulisan-etalase{
-	position: absolute;
+position: absolute;
 	width: 207px;
 	height: 60px;
 	left: 300px;
@@ -253,6 +253,9 @@ a{
 	line-height: 72px;
 	text-align: center;
 	color: #FA9520;
+	border: none;
+	outline: none;
+	white-space: pre;
 }
 .alamat-etalase{
 	position: absolute;
