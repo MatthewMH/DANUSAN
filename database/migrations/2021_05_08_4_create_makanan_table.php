@@ -18,6 +18,7 @@ class CreateMakananTable extends Migration
             $table->foreignId('idtoko')->references('id')->on('toko');
             $table->string('namamakanan');
             $table->bigInteger('harga');
+            $table->string('gambarmakanan');
         });
     }
 
@@ -31,3 +32,4 @@ class CreateMakananTable extends Migration
         Schema::dropIfExists('makanans');
     }
 }
+
