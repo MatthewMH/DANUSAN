@@ -1,0 +1,78 @@
+body{
+	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.kotak{
+	display: flex;
+	position: absolute;
+  	width: 358px;
+  	height: 275px;  
+  	left: 475px;
+  	top: 170px;
+  	border-radius: 40px;
+  	overflow: hidden;
+}
+.kotak-dalem{
+	position: absolute;
+	width: 358px;
+  	height: 275px;  
+  	left: 475px;
+  	top: 170px;
+  	border-radius: 40px;
+  	overflow: hidden;
+}
+.tulisan{
+	position: absolute;
+	left: 90px;
+	right: 33.52%;
+	top: 16.7%;
+	bottom: 79.79%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	white-space: pre;
+	color: #744D37;
+}
+.placeholder1{
+	width: 257px;
+  	height: 22px;
+  	background: rgba(196,196,196,0.30000001192092896);
+  	opacity: 1;
+  	position: absolute;
+  	top: 80px;
+  	left: 40px;
+  	border-top-left-radius: 50px;
+  	border-top-right-radius: 50px;
+  	border-bottom-left-radius: 50px;
+ 	border-bottom-right-radius: 50px;
+  	overflow: hidden;
+}
+.placeholder2{
+	width: 257px;
+  	height: 22px;
+  	background: rgba(196,196,196,0.30000001192092896);
+  	opacity: 1;
+  	position: absolute;
+  	top: 150px;
+  	left: 40px;
+  	border-top-left-radius: 50px;
+  	border-top-right-radius: 50px;
+  	border-bottom-left-radius: 50px;
+ 	border-bottom-right-radius: 50px;
+  	overflow: hidden;
+}
+.sub{
+	position: absolute;
+  	width: 120px;
+  	height: 23px;
+  	left: 120px;
+  	top: 200px;
+  	bottom: 50%;
+  	border: 2px solid #744D37;
+  	box-sizing: border-box;
+  	border-radius: 50px;
+}
