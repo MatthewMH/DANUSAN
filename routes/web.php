@@ -10,6 +10,7 @@ use App\Http\Controllers\HistoryController;
 use App\Http\Controllers\ProsesPembelianController;
 use App\Http\Controllers\KonfirmasiPembelianController;
 use App\Http\Controllers\TransaksiController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,6 +55,12 @@ Route::post('/process', [ProsesPembelianController::class, 'process']);
 Route::get('/home/{namatoko}/{namamakanan}/Konfirmasi/{id}',[KonfirmasiPembelianController::class, 'create']);
 
 Route::post('/transaction',[TransaksiController::class, 'save_to_db']);
+
+Route::get('/admin', [AdminController::class, 'create']);
+Route::post('/admin/input', [AdminController::class, 'input']);
+Route::get('/admin/input', [AdminController::class, 'input']);
+Route::post('/admin/input/proses', [AdminController::class, 'saves']);
+
 
 Route::get('/', function () {
     return view('index');
