@@ -20,7 +20,7 @@
 		<div class = "etalase" style = "top: 200px">
 			<form method = "post" action = "{{ url('/home/'.$toko->namatoko.'/'.Auth()->user()->id) }}">
     					{{ csrf_field() }}
-    		<img src = "{{ URL::asset('images/homeimages/arrow.png')}}" class = "gambar-etalase">
+    		<img src = "{{ URL::asset('external_images/'.$toko->namatoko.'/'.$toko->gambartoko)}}" class = "gambar-etalase">
     		<input type = "text" class = "tulisan-etalase" value = "{{ $toko->namatoko }}" name = "toko"readonly>    		
     		<input type = "text" class = "alamat-etalase" value = "{{ $alamat->where('id', $toko->idalamat)->first()->jalan }}, {{ $alamat->where('id', $toko->idalamat)->first()->kabupatenkota}}, {{ $alamat->where('id', $toko->idalamat)->first()->provinsi }}" readonly>
     		<input type = "submit" value = "Lihat Toko" class = "tombol-etalase">
