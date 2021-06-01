@@ -20,6 +20,7 @@ class CreateOrangdanusanTable extends Migration
             $table->string('username');
             $table->string('kontak');
             $table->string('password');
+            $table->string('profil');
         });
     }
 
@@ -33,3 +34,4 @@ class CreateOrangdanusanTable extends Migration
         Schema::dropIfExists('orangdanusan');
     }
 }
+
