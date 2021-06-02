@@ -20,7 +20,7 @@ class CreateOrangdanusanTable extends Migration
             $table->string('username');
             $table->string('kontak');
             $table->string('password');
-            $table->string('profil')->nullable()->change();
+            $table->string('profil')->nullable();
         });
     }
 
