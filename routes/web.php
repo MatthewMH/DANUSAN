@@ -62,6 +62,9 @@ Route::get('/admin/input', [AdminController::class, 'input']);
 Route::post('/admin/input/proses', [AdminController::class, 'saves']);
 
 
+Route::post('/editprofile/{id}', [ProfileController::class, 'create']);
+Route::get('/editprofile/{id}', [ProfileController::class, 'create']);
+Route::post('/editprofile/saves/{id}', [ProfileController::class, 'edit']);
 Route::get('/', function () {
     return view('index');
 });
