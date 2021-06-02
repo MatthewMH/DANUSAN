@@ -18,7 +18,7 @@ class CreateTokoTable extends Migration
             $table->string('namatoko');
             $table->string('kontaktoko');
             $table->foreignId('idalamat')->references('id')->on('alamat');
-            $table->string('gambartoko');
+            $table->string('gambartoko')->nullable()->change();
         });
     }
 
