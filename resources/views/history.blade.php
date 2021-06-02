@@ -12,8 +12,13 @@
 	</a>
 	<img src = "{{ URL::asset('images/historyimages/Danusan.png') }}" class = "danusan">
 	<div class = "kanan-atas">
-		<img src = "{{ URL::asset('images/historyimages/Vector1.png') }}" class = "orang-dalem">
-		<img src = "{{ URL::asset('images/historyimages/Vector2.png') }}" class = "lingkar-luar">
+		@if(Auth()->user()->profil == NULL)
+			<img src = "{{ URL::asset('images/historyimages/Vector1.png') }}" class = "orang-dalem">
+			<img src = "{{ URL::asset('images/historyimages/Vector2.png') }}" class = "lingkar-luar">
+		@else
+			<img src = "{{ URL::asset('profile/'.Auth()->user()->username.'/'.Auth()->user()->profil) }}" class = "profil">
+			<img src = "{{ URL::asset('images/historyimages/Vector2.png') }}" class = "lingkar-luar">
+		@endif
 		<span class = 'username'> {{ Auth()->user()->username }} </span>
 	</div>
 	<div class = "kotak-tulisan">
@@ -32,7 +37,7 @@
 		</tr>
 		@php
 			$i = 0;
-			$now = date("Y-m-d");
+			$now = date("d-m-Y");
 			$now = strtotime($now);
 		@endphp
 		@foreach($transaksi as $transaksi)
