@@ -11,7 +11,7 @@ use App\Http\Controllers\ProsesPembelianController;
 use App\Http\Controllers\KonfirmasiPembelianController;
 use App\Http\Controllers\TransaksiController;
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\ProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
