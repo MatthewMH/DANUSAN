@@ -1,0 +1,97 @@
+body{
+  	background: linear-gradient(243.89deg, #FFF5F5 0%, #FFE5C3 47.95%, #FFE3D7 98.99%);
+}
+.arrow{
+	position: absolute;
+	left: 60px;
+	right: 78.53%;
+	top: 43px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.danusan{
+	position: absolute;
+	left: 140px;
+	right: 78.53%;
+	top: 62px;
+	bottom: 97.04%;
+	font-family: Lets Espresso;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 65px;
+	color: #744D37;
+}
+.tulisan-email{
+	position: absolute;
+	left: 500px;
+	top: 200px;
+}
+.email{
+	position: absolute;
+	left: 700px;
+	top: 200px;
+	border: none;
+	outline: none;
+	background: none; 
+}
+.tulisan-username{
+	position: absolute;
+	left: 500px;
+	top: 250px;
+}
+.username{
+	position: absolute;
+	left: 700px;
+	top: 250px;
+	border: none;
+	outline: none;
+	background: none; 
+}
+.tulisan-kontak{
+	position: absolute;
+	left: 500px;
+	top: 300px;
+}
+.kontak{
+	position: absolute;
+	left: 700px;
+	top: 300px;
+	border: none;
+	outline: none;
+	background: none; 
+}
+.kotak-foto{
+	position: absolute;
+	top: 180px;
+	left: 150px;
+	border: 1px solid;
+	width: 150px;
+	height: 150px;
+}
+.button-foto{
+	position: absolute;
+	top: 350px;
+	left: 150px;
+}
+.tomboledit{
+	position: absolute;
+  	width: 120px;
+  	height: 23px;
+  	left: 730px;
+  	top: 400px;
+  	bottom: 50%;
+  	border: 2px solid #744D37;
+  	box-sizing: border-box;
+  	border-radius: 50px;
+  	cursor: pointer;
+}
+.profile{
+	width: 150px;
+	height: 150px;
+}
