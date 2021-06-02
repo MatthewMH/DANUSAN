@@ -43,7 +43,7 @@
 		@foreach($transaksi as $transaksi)
 			<tr>
 				<th>{{ $tokonama[$i] }}</th>
-				<th>{{ $makanannama[$i] }}<br><img class = "gambartabel"src = "{{ URL::asset('external_images/'.$tokonama[$i].'/'.$makanannama[$i].'.jpg') }}"></th>
+				<th>{{ $makanannama[$i] }}<br><img class = "gambartabel"src = "{{ URL::asset('external_images/'.$tokonama[$i].'/'.$makanannama[$i]) }}"></th>
 				<th>Rp {{ $harga[$i]}}</th>
 				<th>{{ $transaksi->jumlah }}</th>
 				<th>Rp {{ $transaksi->totalharga }}</th>
