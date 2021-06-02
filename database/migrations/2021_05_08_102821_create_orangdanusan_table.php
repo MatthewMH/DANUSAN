@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTokoTable extends Migration
+class CreateOrangdanusanTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,14 @@ class CreateTokoTable extends Migration
      */
     public function up()
     {
-        Schema::connection('pgsql')->create('toko', function (Blueprint $table) {
+        Schema::connection('pgsql')->create('orangdanusan', function (Blueprint $table) {
+
             $table->id();
-            $table->string('namatoko');
-            $table->string('kontaktoko');
-            $table->foreignId('idalamat')->references('id')->on('alamat');
-            $table->string('gambartoko')->nullable()->change();
+            $table->string('email');
+            $table->string('username');
+            $table->string('kontak');
+            $table->string('password');
+            $table->string('profil')->nullable()->change();
         });
     }
 
@@ -29,7 +31,6 @@ class CreateTokoTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('toko');
+        Schema::dropIfExists('orangdanusan');
     }
 }
-
