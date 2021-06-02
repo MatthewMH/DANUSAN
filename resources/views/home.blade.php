@@ -28,9 +28,23 @@
 	<span style="font-size:85px;cursor:pointer" onclick="openNav()" class = "button">&#9776;</span>
 	<img src = "{{ URL::asset('images/homeimages/Danusan.png') }}" class = "danusan">
 	<div class = "kanan-atas">
-		<img src = "{{ URL::asset('images/homeimages/Vector1.png') }}" class = "orang-dalem">
-		<img src = "{{ URL::asset('images/homeimages/Vector2.png') }}" class = "lingkar-luar">
-		<span class = 'username'> {{ Auth()->user()->username }} </span>
+		@if(Auth()->user()->profil == NULL)
+			<form method = "post" action = "{{ url('/editprofile/'.Auth()->user()->id) }}">
+				{{ csrf_field() }}
+				<img src = "{{ URL::asset('images/homeimages/Vector1.png') }}" class = "orang-dalem">
+				<img src = "{{ URL::asset('images/homeimages/Vector2.png') }}" class = "lingkar-luar">
+				<input type = "text" class = 'username' value = "{{ Auth()->user()->username }}" readonly>
+				<input type = "submit" class = "edit" value = "Edit">
+			</form>
+		@else
+			<form method = "post" action = "{{ url('/editprofile/'.Auth()->user()->id) }}">
+				{{ csrf_field() }}
+				<img src = "{{ URL::asset('profile/'.Auth()->user()->username.'/'.Auth()->user()->profil) }}" class = "profil">
+				<img src = "{{ URL::asset('images/homeimages/Vector2.png') }}" class = "lingkar-luar">
+				<input type = "text" class = 'username' value = "{{ Auth()->user()->username }}" readonly>
+				<input type = "submit" class = "edit" value = "Edit">
+			</form>
+		@endif
 	</div>
 	<img src = "{{ URL::asset('images/homeimages/Rectangle 29.png') }}" class = "gambarutama">
 	<img src = "{{ URL::asset('images/homeimages/Rectangle 32.png') }}" class = "kotaktengah">
@@ -54,7 +68,7 @@
     			<div class = "etalase" style = "top: <?php echo $tinggi?>px">
     				<form method = "post" action = "{{ url('/home/'.$pemilik->namatoko.'/'.Auth()->user()->id) }}">
     					{{ csrf_field() }}
-    				<img src = "{{ URL::asset('external_images/'.$pemilik->namatoko.'/Profile.jpg')}}" class = "gambar-etalase">
+    				<img src = "{{ URL::asset('external_images/'.$pemilik->namatoko.'/'.$pemilik->gambartoko)}}" class = "gambar-etalase">
     				<input type = "text" class = "tulisan-etalase" value = "{{ $pemilik->namatoko }}" name = "namatoko" readonly>
     				<input type ="text" class = "alamat-etalase" value = "{{ $alamat->where('id', $pemilik->idalamat)->first()->jalan }}, {{ $alamat->where('id', $pemilik->idalamat)->first()->kabupatenkota}}, {{ $alamat->where('id', $pemilik->idalamat)->first()->provinsi }}" name = "alamat" readonly>
     				<input type = "submit" value = "Lihat Toko" class = "tombol-etalase">
