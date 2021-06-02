@@ -71,11 +71,37 @@ a{
 	font-style: normal;
 	font-weight: bold;
 	color: #000000;
-	left: 80px;	
+	left: 85px;	
 	right: 15.97%;
 	top: 70px;
 	bottom: 96.93%;
 	white-space : pre;
+	border: none;
+	outline: none;
+	background: none;
+}
+.edit{
+	position: absolute;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	left: 170px;	
+	top: 65px;
+	white-space : pre;
+	width: 70px;
+	height: 30px;
+	cursor: pointer;
+}
+.profil{
+	position: absolute;
+	left: 15px;	
+	right: 15.97%;
+	top: 58px;
+	bottom: 96.93%;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
 }
 .danusan{
 	position: absolute;
