@@ -14,6 +14,7 @@ class HistoryController extends Controller
 		$makanan = DB::table('makanan')->get();
 		$tokonama = array();
 		$makanannama = array();
+		$makanannama2 = array();
 		$harga = array();
 		for($s = 0; $s < sizeof($transaksi); $s++)
 		{
@@ -22,13 +23,15 @@ class HistoryController extends Controller
 				if($transaksi[$s]->idmakanan == $makanan[$t]->id)
 				{
 					array_push($makanannama, $makanan[$t]->gambarmakanan);
+					array_push($makanannama2, $makanan[$t]->namamakanan);
 					array_push($tokonama, DB::table('toko')->where('id', $makanan[$t]->idtoko)->value('namatoko'));
 					array_push($harga, $makanan[$t]->harga);
 					break;
 				}
 			}
 		}
-		return view('history', compact('transaksi', 'tokonama', 'makanannama', 'harga'));
+		return view('history', compact('transaksi', 'tokonama', 'makanannama', 'harga', 'makanannama2'));
 	}    
 }
+
 
