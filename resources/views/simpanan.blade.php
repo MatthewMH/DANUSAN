@@ -12,8 +12,13 @@
 	</a>
 	<img src = "{{ URL::asset('images/simpananimages/Danusan.png') }}" class = "danusan">
 	<div class = "kanan-atas">
-		<img src = "{{ URL::asset('images/simpananimages/Vector1.png') }}" class = "orang-dalem">
-		<img src = "{{ URL::asset('images/simpananimages/Vector2.png') }}" class = "lingkar-luar">
+		@if(Auth()->user()->profil == NULL)
+			<img src = "{{ URL::asset('images/simpananimages/Vector1.png') }}" class = "orang-dalem">
+			<img src = "{{ URL::asset('images/simpananimages/Vector2.png') }}" class = "lingkar-luar">
+		@else
+			<img src = "{{ URL::asset('profile/'.Auth()->user()->username.'/'.Auth()->user()->profil) }}" class = "profil">
+			<img src = "{{ URL::asset('images/simpananimages/Vector2.png') }}" class = "lingkar-luar">
+		@endif
 		<span class = 'username'> {{ Auth()->user()->username }} </span>
 	</div>
 	<div class = "penampung">
