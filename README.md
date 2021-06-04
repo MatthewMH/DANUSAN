@@ -32,7 +32,8 @@ Target dari aplikasi kita adalah seorang yang ingin mencoba usaha Danusan namun 
 7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
 ### ERD Database
-![ERD_Database_DANUSAN](https://user-images.githubusercontent.com/79049671/120741475-51aecb80-c51f-11eb-8fa8-6efde191206b.png)
+![ERD Database DANUSAN(3)](https://user-images.githubusercontent.com/79038435/120760149-fb9d5080-c53d-11eb-8a45-a9aa9bddda8c.png)
+
 
 ### Use Case Diagram
 ![Use_Case_Diagram_DANUSAN(1)](https://user-images.githubusercontent.com/79049671/120741632-8f135900-c51f-11eb-91e9-5dc47444719d.png)
