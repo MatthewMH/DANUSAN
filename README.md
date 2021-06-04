@@ -37,5 +37,8 @@ Target dari aplikasi kita adalah seorang yang ingin mencoba usaha Danusan namun 
 ### ERD Database
 ![ERD_Database_DANUSAN](https://user-images.githubusercontent.com/79049671/120741475-51aecb80-c51f-11eb-8fa8-6efde191206b.png)
 
+### Use Case Diagram
+![Use_Case_Diagram_DANUSAN(1)](https://user-images.githubusercontent.com/79049671/120741632-8f135900-c51f-11eb-91e9-5dc47444719d.png)
+
 
 
