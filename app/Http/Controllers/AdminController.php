@@ -53,6 +53,7 @@ class AdminController extends Controller
                 $toko->idalamat = $alamat->id;
                 $toko->gambartoko = 'Profile.'.$request->gambartoko->extension(); 
                 $request->gambartoko->move(public_path('external_images/'.$toko->namatoko), $toko->gambartoko);
+                $toko->idadmin = DB::table('admin')->where('username', $request->satu)->value('id');
                 $toko->save();
 
                 if($request->namamakanan1 != NULL)
@@ -131,6 +132,7 @@ class AdminController extends Controller
                 $toko->idalamat = $alamat->id;
                 $toko->gambartoko = 'Profile.'.$request->gambartoko->extension(); 
                 $request->gambartoko->move(public_path('external_images/'.$toko->namatoko), $toko->gambartoko);
+                $toko->idadmin = DB::table('admin')->where('username', $request->satu)->value('id');
                 $toko->save();
 
                 if($request->namamakanan1 != NULL)
@@ -163,7 +165,6 @@ class AdminController extends Controller
                     $request->gambarmakanan3->move(public_path('external_images/'.$toko->namatoko), $makanan3->gambarmakanan);
                     $makanan3->save();
                 }
-
             }
             else
             {
