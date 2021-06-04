@@ -32,19 +32,7 @@ Target dari aplikasi kita adalah seorang yang ingin mencoba usaha Danusan namun 
 4. Sebagai seseorang yang ingin danusan, agar dapat mengetahui lebih detail mengenai makanan danusan yang akan dibeli, saya dapat mengontak sang pemilik toko untuk mengetahui lebih detail mengenai makanan danusan tersebut.
 5. Sebagai seseorang yang ingin danusan, agar dapat mengetahui riwayat transaksi yang telah dilakukan, saya dapat masuk ke halaman Order. 
 6. Sebagai seseorang yang ingin danusan, agar dapat menjadikan salah satu toko sebagai langganan, saya dapat menyimpan toko tersebut pada menu Simpanan di halaman Pilihan Toko. 
+7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
 
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# DANUSAN 
-#DANUSAN 
