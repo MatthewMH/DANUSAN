@@ -1,8 +1,5 @@
-<p align="left"><a href="Danusan" width="400"></a></p>
+![Danusan](https://user-images.githubusercontent.com/79049671/120742295-d0f0cf00-c520-11eb-92e5-3f50aad9ddd9.png)
 
-</p>
-
-# Danusan
 
 Anggota Kelompok 16:
 1. Matthew Martianus Henry
