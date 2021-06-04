@@ -34,5 +34,8 @@ Target dari aplikasi kita adalah seorang yang ingin mencoba usaha Danusan namun 
 6. Sebagai seseorang yang ingin danusan, agar dapat menjadikan salah satu toko sebagai langganan, saya dapat menyimpan toko tersebut pada menu Simpanan di halaman Pilihan Toko. 
 7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
+### ERD Database
+![ERD_Database_DANUSAN](https://user-images.githubusercontent.com/79049671/120741475-51aecb80-c51f-11eb-8fa8-6efde191206b.png)
+
 
 
