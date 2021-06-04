@@ -26,7 +26,14 @@ Anggota Kelompok 16:
 Target dari aplikasi kita adalah seorang yang ingin mencoba usaha Danusan namun kebingungan mencari toko yang menyediakan berbagai macam jenis kue. 
 
 ### User Story
--
+1. Sebagai seseorang yang ingin danusan atau penjual, agar dapat menggunakan layanan yang ditawarkan pada web, saya dapat masuk ke web dari landing page dengan menekan tombol Login. Apabila saya belum memiliki akun, saya dapat mendaftarkan diri melalui tombol Sign Up pada landing page. 
+2. Sebagai seseorang yang ingin danusan, agar dapat mengetahui lokasi toko yang menjual makanan danusan, saya dapat masuk ke halaman Pilihan Toko untuk melihat toko di sekitar saya yang menjual makanan danusan serta lokasi pengambilan makanan yang saya pesan.
+3. Sebagai seseorang yang ingin danusan, agar dapat mengetahui perkiraan modal yang dibutuhkan, saya dapat melihat harga yang tertera pada gambar makanan di masing masing halaman Toko. 
+4. Sebagai seseorang yang ingin danusan, agar dapat mengetahui lebih detail mengenai makanan danusan yang akan dibeli, saya dapat mengontak sang pemilik toko untuk mengetahui lebih detail mengenai makanan danusan tersebut.
+5. Sebagai seseorang yang ingin danusan, agar dapat mengetahui riwayat transaksi yang telah dilakukan, saya dapat masuk ke halaman Order. 
+6. Sebagai seseorang yang ingin danusan, agar dapat menjadikan salah satu toko sebagai langganan, saya dapat menyimpan toko tersebut pada menu Simpanan di halaman Pilihan Toko. 
+
+
 
 ## Code of Conduct
 
