@@ -44,4 +44,4 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 
 ### Activity Diagram : Menyimpan Toko
-![diagram-Page-1 (4)](https://user-images.githubusercontent.com/71091549/120912407-05978e80-c6b9-11eb-9b3f-559631aaadb3.png)
+![diagram-Page-4 (1)](https://user-images.githubusercontent.com/71091549/120912606-da15a380-c6ba-11eb-820b-e6b79ed3217d.png)
