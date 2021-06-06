@@ -32,11 +32,15 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
 ### ERD Database
-![ERD Database DANUSAN(3)](https://user-images.githubusercontent.com/79038435/120760149-fb9d5080-c53d-11eb-8a45-a9aa9bddda8c.png)
+![ERD Database DANUSAN(2)](https://user-images.githubusercontent.com/79038435/120917733-04775900-c6db-11eb-958d-1ca4725d3991.png)
 
 
 ### Use Case Diagram
 ![Use_Case_Diagram_DANUSAN(1)](https://user-images.githubusercontent.com/79049671/120741632-8f135900-c51f-11eb-91e9-5dc47444719d.png)
+
+
+### Activity Diagram : Pembelian Danusan
+![Activity Diagram Pembelian](https://user-images.githubusercontent.com/79038435/120917773-4902f480-c6db-11eb-8128-730879904edc.png)
 
 
 ### Activity Diagram : Melihat Riwayat Transaksi
@@ -45,3 +49,5 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 ### Activity Diagram : Menyimpan Toko
 ![diagram-Page-4 (1)](https://user-images.githubusercontent.com/71091549/120912606-da15a380-c6ba-11eb-820b-e6b79ed3217d.png)
+
+
