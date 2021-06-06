@@ -32,7 +32,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
 ### ERD Database
-![ERD Database DANUSAN(2)](https://user-images.githubusercontent.com/79038435/120917733-04775900-c6db-11eb-958d-1ca4725d3991.png)
+![ERD Database DANUSAN(3)](https://user-images.githubusercontent.com/79049671/120925572-559b4300-c703-11eb-9356-f595816bdc15.png)
 
 
 ### Use Case Diagram
