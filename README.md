@@ -40,7 +40,8 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 
 ### Activity Diagram : Pembelian Danusan
-![Activity Diagram Pembelian](https://user-images.githubusercontent.com/79038435/120917773-4902f480-c6db-11eb-8128-730879904edc.png)
+![Activity Diagram Pembelian](https://user-images.githubusercontent.com/79038435/120918129-f9bdc380-c6dc-11eb-986d-8bc0f8e8095d.png)
+
 
 
 ### Activity Diagram : Melihat Riwayat Transaksi
