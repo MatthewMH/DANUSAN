@@ -4,21 +4,21 @@ body{
 .kotak{
 	display: flex;
 	position: absolute;
-  	width: 358px;
-  	height: 275px;  
-  	left: 475px;
-  	top: 170px;
-  	border-radius: 40px;
-  	overflow: hidden;
+  width: 358px;
+  height: 275px;  
+  left: 38.5%;
+	top: 170px;
+  border-radius: 40px;
+  overflow: hidden;
 }
 .kotak-dalem{
 	position: absolute;
 	width: 358px;
-  	height: 275px;  
-  	left: 475px;
-  	top: 170px;
-  	border-radius: 40px;
-  	overflow: hidden;
+  height: 275px;  
+  left: 39%;
+  top: 170px;
+  border-radius: 40px;
+  overflow: hidden;
 }
 .tulisan{
 	position: absolute;
