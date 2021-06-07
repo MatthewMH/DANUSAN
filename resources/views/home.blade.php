@@ -47,7 +47,8 @@
 		@endif
 	</div>
 	<img src = "{{ URL::asset('images/homeimages/Rectangle 29.png') }}" class = "gambarutama">
-	<img src = "{{ URL::asset('images/homeimages/Rectangle 32.png') }}" class = "kotaktengah">
+	<div class = "kotaktengah">
+    </div>
 	<img src = "{{ URL::asset('images/homeimages/Hot To Order.png') }}" class = "caraorder">
 	<div class = "tulisantengah">
 		<span class = "attention">Attention, Fundraiser!</span> <br>
