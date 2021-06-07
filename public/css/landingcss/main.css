@@ -132,7 +132,7 @@ body {
 }
 .logo{
   position: absolute;
-  left: 400px;
+  right: 4%;
   top: 50px;
   border-radius: 208.5px;
   border: 2px solid #000000;
@@ -235,7 +235,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 1413px;
-  left: 135px;
+  left: 15%;
   overflow: hidden;
   z-index: -1;
 }
