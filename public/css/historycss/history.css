@@ -3,7 +3,7 @@ body{
 }
 .kanan-atas{
 	position: absolute;
-	left: 900px;
+	right: 20%;
 	width : 91px;
 	height: 62px;
 }
@@ -61,7 +61,7 @@ body{
 }
 .kotak-tulisan{
 	position: absolute;
-	left: 97px;
+	left: 12%;
 	top: 190px;
 	bottom: 82.76%;
 	background: #FFFFFF;
@@ -86,7 +86,7 @@ body{
 }
 .tabel{
 	position: absolute;
-	left: 50px;
+	left: 6%;
 	top: 350px;
 	border: 1px solid #B9B9B9;
 	width: 900px;
