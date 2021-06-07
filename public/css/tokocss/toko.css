@@ -3,7 +3,7 @@ body{
 }
 .kanan-atas{
 	position: absolute;
-	left: 900px;
+	right: 20%;
 	width : 91px;
 	height: 62px;
 }
@@ -61,7 +61,7 @@ body{
 }
 .kotak-nama{
 	position: absolute;
-	width: 1282px;
+	width: 100%;
 	height: 182px;
 	left: 0px;
 	top: 169px;
@@ -125,7 +125,7 @@ body{
 }
 .pajangan{
 	position: absolute;
-	width: 1282px;
+	width: 100%;
 	height: 366px;
 	left: 0px;
 	top: 389px;
