@@ -50,7 +50,7 @@
 			<img src = "{{ URL::asset('images/landingimages/Danusanhitam.png') }}">
 		</div>
 		<span class="tulisanbold">We’re Here Welcoming The Fundraiser!</span><br>
-		<span class="tulisanbiasa">Mulai temukan dengan mudah barang jualan danusanmu disini. Selamat danusan :)</span>
+		<span class="tulisanbiasa">Mulai temukan dengan mudah barang jualan danusanmu disini.<br>Selamat danusan :)</span>
 <div class="v155_50">
 	<img src = "{{ asset('images/landingimages/v153_56.png') }}" class="v153_56">
 		
