@@ -38,6 +38,12 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Use Case Diagram
 ![Use_Case_Diagram_DANUSAN(1)](https://user-images.githubusercontent.com/79049671/120741632-8f135900-c51f-11eb-91e9-5dc47444719d.png)
 
+
+### User Case Description
+Proses Melihat Riwayat Transaksi
+![diagram-Page-5](https://user-images.githubusercontent.com/71091549/121167727-67ecbc80-c87c-11eb-85b2-f15e653119b0.png)
+
+
 ### Acitivy Diagram : Memasukkan Akun
 ![activitydiagram](https://user-images.githubusercontent.com/79049671/121058630-c10c1000-c7ea-11eb-8f3a-c767d2b38e32.png)
 
