@@ -41,7 +41,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 ### User Case Description
 Proses Melihat Riwayat Transaksi
-![User Case Description](https://user-images.githubusercontent.com/71091549/121167906-95396a80-c87c-11eb-8260-fc31af75ff5e.png)
+![User Case Description](https://user-images.githubusercontent.com/71091549/121168154-d893d900-c87c-11eb-8de5-d0de6c1cf43f.png)
 
 
 ### Acitivy Diagram : Memasukkan Akun
