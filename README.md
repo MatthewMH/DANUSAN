@@ -44,7 +44,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ![User Case Description](https://user-images.githubusercontent.com/71091549/121168154-d893d900-c87c-11eb-8de5-d0de6c1cf43f.png)
 
 ## User Case Description : Proses Menyimpan Toko
-![User Case Description](https://user-images.githubusercontent.com/71091549/121169194-f57cdc00-c87d-11eb-8f43-0f5bd181bc8b.png)
+![User Case Description](https://user-images.githubusercontent.com/71091549/121340682-10b51d80-c94a-11eb-96cc-10580bbd0511.png)
 
 ### Acitivy Diagram : Memasukkan Akun
 ![activitydiagram](https://user-images.githubusercontent.com/79049671/121058630-c10c1000-c7ea-11eb-8f3a-c767d2b38e32.png)
