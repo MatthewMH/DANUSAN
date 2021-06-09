@@ -41,7 +41,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 
 ## User Case Description : Proses Melihat Riwayat Transaksi
-![User Case Description](https://user-images.githubusercontent.com/71091549/121168154-d893d900-c87c-11eb-8de5-d0de6c1cf43f.png)
+![User Case Description](https://user-images.githubusercontent.com/71091549/121340959-61c51180-c94a-11eb-9d32-cbcc9bc3cf8a.png)
 
 ## User Case Description : Proses Menyimpan Toko
 ![User Case Description](https://user-images.githubusercontent.com/71091549/121340682-10b51d80-c94a-11eb-96cc-10580bbd0511.png)
