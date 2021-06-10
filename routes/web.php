@@ -12,6 +12,7 @@ use App\Http\Controllers\KonfirmasiPembelianController;
 use App\Http\Controllers\TransaksiController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProfileController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,6 +30,8 @@ Route::get('/signup_exception', [registrationcontroller::class, 'exception1']);
 Route::get('/signup_konfirmexception', [registrationcontroller::class, 'exception2']);
 Route::get('/view',[registrationcontroller::class, 'view_home']);
 Route::get('/signup_exception2', [registrationcontroller::class, 'view_exception2']);
+Route::get('/signup_exception3', [registrationcontroller::class, 'exception3']);
+Route::get('/signup_exception4', [registrationcontroller::class, 'exception4']);
 
 Route::get('/login', [LoginController::class, 'create']);
 Route::post('/login', [LoginController::class, 'in']);
@@ -61,10 +64,13 @@ Route::post('/admin/input', [AdminController::class, 'input']);
 Route::get('/admin/input', [AdminController::class, 'input']);
 Route::post('/admin/input/proses', [AdminController::class, 'saves']);
 
-
 Route::post('/editprofile/{id}', [ProfileController::class, 'create']);
 Route::get('/editprofile/{id}', [ProfileController::class, 'create']);
 Route::post('/editprofile/saves/{id}', [ProfileController::class, 'edit']);
+Route::get('/editprofile/exception1/{id}', [ProfileController::class, 'view_exception1']);
+Route::get('/editprofile/exception2/{id}', [ProfileController::class, 'view_exception2']);
+Route::get('/editprofile/exception3/{id}', [ProfileController::class, 'view_exception3']);
+
 Route::get('/', function () {
     return view('index');
 });
