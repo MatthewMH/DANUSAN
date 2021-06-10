@@ -31,6 +31,23 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 6. Sebagai seseorang yang ingin danusan, agar dapat menjadikan salah satu toko sebagai langganan, saya dapat menyimpan toko tersebut pada menu Simpanan di halaman Pilihan Toko. 
 7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
+### Lingkungan Pengembangan
+1. Hardware
+    - Processor: Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz
+    - Memory : 4 GB DDR4
+    - Storage: 512 GB HDD
+
+2. Software
+    - Text Editor : Sublime Text 3 
+    - Operating System : Ubuntu 20.04.2.0 LTS (Focal Fossa)
+    - Database : PostgreSQL
+    - Framework : Laravel
+
+3. More
+    - Collaboration Platform: Github, Trello
+    - Programming Language : PHP
+    - Visual Editing: Figma
+
 ### ERD Database
 ![ERD Database DANUSAN(![Proses Sunting Profile](https://user-images.githubusercontent.com/63547189/121525905-12064900-ca23-11eb-8c70-8d451e5a8217.png)
 3)](https://user-images.githubusercontent.com/79049671/120925572-559b4300-c703-11eb-9356-f595816bdc15.png)
