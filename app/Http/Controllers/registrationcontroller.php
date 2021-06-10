@@ -17,13 +17,22 @@ class registrationcontroller extends Controller
 
     public function store(Request $request)
     {
+        $kontak_regex = "#^(^08)(\d{3,4}-?){2}\d{3,4}$#";
+        $email_regex = "#^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$#";
+        if(strlen($request->kontak) < 12 || !(preg_match($kontak_regex, $request->kontak)))
+        {
+            return redirect()->to('/signup_exception3');
+        }
+        if(strlen($request->email) < 3 || !filter_var($request->email, FILTER_VALIDATE_EMAIL))
+        {
+            return redirect()->to('/signup_exception4');
+        }
         $validated = Validator::make($request->all(), [
             'email' => 'required|email|unique:orangdanusan,email',
             'username' => 'required|unique:orangdanusan,username',
             'password' => 'required|min:8',
             'kontak' => 'required|unique:orangdanusan,kontak'
         ]);
-
         if($validated->fails())
         {
             if(strlen($request->password) < 8)
@@ -74,5 +83,13 @@ class registrationcontroller extends Controller
     public function view_exception2()
     {
         return view('signup_exception2');
+    }
+    public function exception3()
+    {
+        return view('signup_exception3');
+    }
+    public function exception4()
+    {
+        return view('signup_exception4');
     }
 }
