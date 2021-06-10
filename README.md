@@ -40,13 +40,6 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ![Use_Case_Diagram_DANUSAN(1)](https://user-images.githubusercontent.com/79049671/120741632-8f135900-c51f-11eb-91e9-5dc47444719d.png)
 
 
-
-## User Case Description : Proses Melihat Riwayat Transaksi
-![User Case Description](https://user-images.githubusercontent.com/71091549/121340959-61c51180-c94a-11eb-9d32-cbcc9bc3cf8a.png)
-
-## User Case Description : Proses Menyimpan Toko
-![User Case Description](https://user-images.githubusercontent.com/71091549/121340682-10b51d80-c94a-11eb-96cc-10580bbd0511.png)
-
 ### Acitivy Diagram : Memasukkan Akun
 ![activitydiagram](https://user-images.githubusercontent.com/79049671/121058630-c10c1000-c7ea-11eb-8f3a-c767d2b38e32.png)
 
@@ -64,4 +57,15 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 ### Activity Diagram : Sunting Profil
 ![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
+
+## Use Case Description : Proses Melihat Riwayat Transaksi
+![User Case Description](https://user-images.githubusercontent.com/71091549/121340959-61c51180-c94a-11eb-9d32-cbcc9bc3cf8a.png)
+
+## Use Case Description : Proses Menyimpan Toko
+![User Case Description](https://user-images.githubusercontent.com/71091549/121340682-10b51d80-c94a-11eb-96cc-10580bbd0511.png)
+
+## Use Case Description : Proses Sunting Profil
+![Use Case Description](https://user-images.githubusercontent.com/63547189/121527487-a8873a00-ca24-11eb-940c-9cf4b1c5ae2a.png)
+
+
 
