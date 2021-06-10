@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background: linear-gradient(rgba(255,245,245,1), rgba(255,229,195,1));
+}
+.v0_3 {
+  width: 100%;
+  height: 1024px;
+  background: linear-gradient(rgba(255,245,245,1), rgba(255,229,195,1));
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: visible;
+}
+.arrow{
+  position: absolute;
+  width: 84px;
+  height: 85px;
+  left: 69px;
+  top: 20px;
+}
+.danusan{
+  position: absolute;
+  left: 160px;
+  right: 76.72%;
+  top: 38px;
+  bottom: 88.25%;
+  font-family: Lets Espresso;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 65px;
+  color: #744D37;
+}
+.gambarkiri{
+  position: absolute;
+  width: 530.69px;
+  height: 427.73px;
+  left: 79px;
+  top: 170px;
+  width: 400px;
+  height: 300px;
+}
+.gambarkanan{
+  position: absolute;
+  width: 305px;
+  height: 896px;
+  left: 995px;
+  top: -102px;
+}
+.kotak{
+  position: absolute;
+  width: 358px;
+  height: 275px;  
+  left: 615px;
+  top: 105px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.kotaksignup{
+  position: absolute;
+  width: 120px;
+  height: 23px;
+  left: 730px;
+  top: 300px;
+  bottom: 50%;
+  border: 2px solid #744D37;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.tulisan{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.tulisansignup{
+  position: absolute;
+  left: 29%;
+  right: 33.5%;
+  top: 48.14%; 
+  bottom: 50.39%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #744D37;
+  white-space: pre;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v414_26 {
+  width: 266px;
+  height: 292px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 141px;
+  left: 650px;
+  overflow: hidden;
+}
+.v409_90 {
+  width: 113px;
+  color: rgba(115,77,55,1);
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  font-family: Poppins;
+  font-weight: ExtraBold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+  white-space: pre;
+}
+.v409_91 {
+  width: 266px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 46px;
+  left: 0px;
+  overflow: hidden;
+}
