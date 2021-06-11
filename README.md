@@ -48,6 +48,10 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
     - Programming Language : PHP
     - Visual Editing: Figma
 
+### Arsitektur Aplikasi
+![Arsitektur Aplikasi](https://user-images.githubusercontent.com/63547189/121708574-e9a14c00-cb01-11eb-98a4-9fdbedcd9c9d.png)
+
+
 ### ERD Database
 ![ERD Database DANUSAN(![Proses Sunting Profile](https://user-images.githubusercontent.com/63547189/121525905-12064900-ca23-11eb-8c70-8d451e5a8217.png)
 3)](https://user-images.githubusercontent.com/79049671/120925572-559b4300-c703-11eb-9356-f595816bdc15.png)
