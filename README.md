@@ -60,25 +60,6 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Use Case Diagram
 ![Use Case Diagram DANUSAN](https://user-images.githubusercontent.com/63547189/121763744-98787300-cb68-11eb-931d-3bc12133e4fa.png)
 
-
-### Acitivy Diagram : Memasukkan Akun
-![activitydiagram](https://user-images.githubusercontent.com/79049671/121058630-c10c1000-c7ea-11eb-8f3a-c767d2b38e32.png)
-
-
-### Activity Diagram : Pembelian Danusan
-![Basdat Tugas Akhir-Activity Diagram Pembelian](https://user-images.githubusercontent.com/79038435/121195507-dd1aba80-c899-11eb-9dfe-831d9a2850f1.png)
-
-
-### Activity Diagram : Melihat Riwayat Transaksi
-![diagram-Page-1 (4)](https://user-images.githubusercontent.com/71091549/120912407-05978e80-c6b9-11eb-9b3f-559631aaadb3.png)
-
-
-### Activity Diagram : Menyimpan Toko
-![diagram-Page-4 (1)](https://user-images.githubusercontent.com/71091549/120912606-da15a380-c6ba-11eb-820b-e6b79ed3217d.png)
-
-### Activity Diagram : Sunting Profil
-![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
-
 ## Use Case Description : Proses Pembelian Danusan
 ![Use Case Pembelian](https://user-images.githubusercontent.com/79038435/121777734-d5bb2000-cbbd-11eb-80aa-79ffa095fc93.png)
 
@@ -91,5 +72,21 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ## Use Case Description : Proses Sunting Profil
 ![Use Case Description](https://user-images.githubusercontent.com/63547189/121527487-a8873a00-ca24-11eb-940c-9cf4b1c5ae2a.png)
 
+
+
+### Acitivy Diagram : Memasukkan Akun
+![activitydiagram](https://user-images.githubusercontent.com/79049671/121058630-c10c1000-c7ea-11eb-8f3a-c767d2b38e32.png)
+
+### Activity Diagram : Pembelian Danusan
+![Basdat Tugas Akhir-Activity Diagram Pembelian](https://user-images.githubusercontent.com/79038435/121195507-dd1aba80-c899-11eb-9dfe-831d9a2850f1.png)
+
+### Activity Diagram : Melihat Riwayat Transaksi
+![diagram-Page-1 (4)](https://user-images.githubusercontent.com/71091549/120912407-05978e80-c6b9-11eb-9b3f-559631aaadb3.png)
+
+### Activity Diagram : Menyimpan Toko
+![diagram-Page-4 (1)](https://user-images.githubusercontent.com/71091549/120912606-da15a380-c6ba-11eb-820b-e6b79ed3217d.png)
+
+### Activity Diagram : Sunting Profil
+![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
 
 
