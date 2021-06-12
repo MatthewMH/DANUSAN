@@ -5,7 +5,7 @@ Anggota Kelompok 16:
 1. Matthew Martianus Henry
 2. Lee Roy Akbar
 3. Amira Nabila Rakhmat
-4. Ainun Fadhilah Az-Zahida
+4. Ainun Fadhilah Az Zahida
 
 ### Latar Belakang
 
@@ -78,6 +78,9 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 ### Activity Diagram : Sunting Profil
 ![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
+
+## Use Case Description : Proses Pembelian Danusan
+![Use Case Pembelian](https://user-images.githubusercontent.com/79038435/121777734-d5bb2000-cbbd-11eb-80aa-79ffa095fc93.png)
 
 ## Use Case Description : Proses Melihat Riwayat Transaksi
 ![diagram-Page-6 (1)](https://user-images.githubusercontent.com/71091549/121614343-a6ef5d80-ca88-11eb-9aae-386c4ef5b7d2.png)
