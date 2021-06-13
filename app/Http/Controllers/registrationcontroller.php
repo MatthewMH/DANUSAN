@@ -18,8 +18,7 @@ class registrationcontroller extends Controller
     public function store(Request $request)
     {
         $kontak_regex = "#^(^08)(\d{3,4}-?){2}\d{3,4}$#";
-        $email_regex = "#^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$#";
-        if(strlen($request->kontak) < 12 || !(preg_match($kontak_regex, $request->kontak)))
+        if(strlen($request->kontak) < 11 || !(preg_match($kontak_regex, $request->kontak)) || strlen($request->kontak) > 13)
         {
             return redirect()->to('/signup_exception3');
         }
@@ -28,16 +27,20 @@ class registrationcontroller extends Controller
             return redirect()->to('/signup_exception4');
         }
         $validated = Validator::make($request->all(), [
-            'email' => 'required|email|unique:orangdanusan,email',
-            'username' => 'required|unique:orangdanusan,username',
-            'password' => 'required|min:8',
-            'kontak' => 'required|unique:orangdanusan,kontak'
+            'email' => 'required|email|unique:orangdanusan,email|max:255',
+            'username' => 'required|unique:orangdanusan,username|max:255',
+            'password' => 'required|max:255',
+            'kontak' => 'required|unique:orangdanusan,kontak|max:13'
         ]);
         if($validated->fails())
         {
             if(strlen($request->password) < 8)
             {
                 return redirect()->to('/signup_exception2');
+            }
+            else if(strlen($request->username) > 255)
+            {
+                return redirect()->to('/signup_exception5');
             }
             else
             {
@@ -92,4 +95,9 @@ class registrationcontroller extends Controller
     {
         return view('signup_exception4');
     }
+    public function exception5()
+    {
+        return view('signup_exception5');
+    }
 }
+
