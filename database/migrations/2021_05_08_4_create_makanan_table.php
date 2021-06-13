@@ -16,9 +16,9 @@ class CreateMakananTable extends Migration
         Schema::connection('pgsql')->create('makanan', function (Blueprint $table) {
             $table->id();
             $table->foreignId('idtoko')->references('id')->on('toko');
-            $table->string('namamakanan');
+            $table->string('namamakanan', 255);
             $table->bigInteger('harga');
-            $table->string('gambarmakanan')->nullable();
+            $table->string('gambarmakanan', 255)->nullable();
         });
     }
 
