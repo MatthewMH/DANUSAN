@@ -15,9 +15,9 @@ class CreateAlamatTable extends Migration
     {
         Schema::connection('pgsql')->create('alamat', function (Blueprint $table) {
             $table->id();
-            $table->string('jalan');
-            $table->string('kabupatenkota');
-            $table->string('provinsi');
+            $table->string('jalan', 255);
+            $table->string('kabupatenkota', 255);
+            $table->string('provinsi', 255);
         });
     }
 
