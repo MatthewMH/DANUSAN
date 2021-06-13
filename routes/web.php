@@ -32,6 +32,7 @@ Route::get('/view',[registrationcontroller::class, 'view_home']);
 Route::get('/signup_exception2', [registrationcontroller::class, 'view_exception2']);
 Route::get('/signup_exception3', [registrationcontroller::class, 'exception3']);
 Route::get('/signup_exception4', [registrationcontroller::class, 'exception4']);
+Route::get('/signup_exception5', [registrationcontroller::class, 'exception5']);
 
 Route::get('/login', [LoginController::class, 'create']);
 Route::post('/login', [LoginController::class, 'in']);
