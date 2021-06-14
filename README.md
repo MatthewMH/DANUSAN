@@ -104,8 +104,8 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 ## Test Case
 ### Positive Case
-| No | Scenario | Pre-requisites | Steps | Expected Result | Actual Result | Status |
-| -- | -------- | -------------- | ----- | --------------- | ------------- | ------ |
+| No | Scenario | Pre-requisites | Steps | Expected Result | Actual Result | Status     |  
+| -- | -------- | -------------- | ----- | --------------- | ------------- | ---------- |
 | 1. | User login dengan akun yang valid | User mengakses web Danusan | User mengakses halaman login, masukkan email dan password yang telah terdaftar, lalu klik Login | Login berhasil dan user diarahkan ke halaman home | As expected | Pass :white_check_mark: |
 | 2. | User mendaftarkan email, username, nomor telepon, dan password yang valid saat pendaftaran | User mengakses web Danusan | User mengakses halaman sign up lalu masukkan email, username, nomor telepon, dan password lalu klik sign up | Sign up berhasil dan user diarahkan ke menu login | As expected | Pass :white_check_mark: |
 
