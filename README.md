@@ -97,9 +97,16 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Fitur Utama yang Dikembangkan
 | Fitur                  | Fungsi                                                                                          |
 | ---------------------- | ----------------------------------------------------------------------------------------------  |
-| Fitur Pilih Toko       | User dapat memilih toko yang diinginkan kemudian akan diarahkan ke halaman toko yang diinginkan |                             
-| Fitur Search Toko      | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian<br>dan ditampilkan toko yang dicari atau hasil tidak ditemukan |     
-| Fitur Simpanan Toko    | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang<br>disimpan |
-| Fitur Add to Cart      | User dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item<br>danusan yang ingin dibeli dan akan ditampilkan total harga pembelian |                
-| Fitur Riwayat Transaksi| User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate<br>status dari transaksi yang dikakukan oleh user |                                       
+| Fitur Pembelian  Makanan | User dapat memilih toko yang diinginkan kemudian akan diarahkan ke halaman toko yang diinginkan<br>kemudian dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item<br>danusan yang ingin dibeli dan akan ditampilkan total harga pembelian|                             
+| Fitur Search Toko | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian<br>dan ditampilkan toko yang dicari atau hasil tidak ditemukan |     
+| Fitur Simpanan Toko | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang<br>disimpan |                
+| Fitur Riwayat Transaksi | User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate<br>status dari transaksi yang dikakukan oleh user |
+| Fitur Input Toko | Admin dapat memasukkan toko dan daftar item danusan toko beserta nomor telepon untuk ditampilkan kedalam website |
+
+### Fitur Tambahan
+| Fitur                  | Fungsi                                                                                          |
+| ---------------------- | ----------------------------------------------------------------------------------------------  |
+| Fitur Sign Up | User dapat membuat aku dengan mendaftarkan username, password, dan nomor telepon |
+| Fitur Login | User dapat masuk ke dalam web aplikasi dan melakukan transaksi dengan mengisi username<br>dan password jika sudah mendaftarkan akun |               
+| Fitur Edit Profile | User dapat mengupload foto profil diri ke dalam website dan mengeditnya |
                                                                                                
