@@ -132,3 +132,25 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 4. Edit Profile
 ![Screenshot from 2021-06-14 14-09-32](https://user-images.githubusercontent.com/63547189/121853623-53e10900-cd1b-11eb-8709-30e217b2ed52.png)
 
+5. Tampilan Toko
+![Screenshot from 2021-06-14 14-26-12](https://user-images.githubusercontent.com/63547189/121854731-bedf0f80-cd1c-11eb-88c4-7490613ff8f9.png)
+
+6. Proses Pembelian
+![Screenshot from 2021-06-14 14-26-23](https://user-images.githubusercontent.com/63547189/121854791-d3230c80-cd1c-11eb-98e0-b396e2ab36ea.png)
+
+7. Konfirmasi Pembelian
+![Screenshot from 2021-06-14 14-26-31](https://user-images.githubusercontent.com/63547189/121854853-e3d38280-cd1c-11eb-925a-89282f4ddc12.png)
+
+8. Riwayat Transaksi
+![Screenshot from 2021-06-14 14-26-38](https://user-images.githubusercontent.com/63547189/121854921-f51c8f00-cd1c-11eb-879b-fbaaa79c02dc.png)
+
+9. Menu Saved
+![Screenshot from 2021-06-14 14-26-54](https://user-images.githubusercontent.com/63547189/121854968-02397e00-cd1d-11eb-9e6d-4e13454abc27.png)
+
+10. Hapus Toko (Asumsi Toko Telah Tersimpan)
+![Screenshot from 2021-06-14 14-27-05](https://user-images.githubusercontent.com/63547189/121855026-14b3b780-cd1d-11eb-820c-41682cec1c62.png)
+
+
+
+
+
