@@ -7,7 +7,6 @@ Anggota Kelompok 16:
 3. Amira Nabila Rakhmat
 4. Ainun Fadhilah Az Zahida
 
-[[_TOC_]]
 
 # Latar Belakang
 
