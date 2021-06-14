@@ -75,7 +75,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 
 
-### Acitivy Diagram : Memasukkan Akun
+### Activity Diagram : Memasukkan Akun
 ![activitydiagram (2)](https://user-images.githubusercontent.com/79049671/121781416-cbede880-cbce-11eb-91bf-1a43d6f78952.png)
 
 ### Activity Diagram : Pembelian Danusan
