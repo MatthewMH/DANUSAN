@@ -16,7 +16,7 @@ class CreateTokoTable extends Migration
         Schema::connection('pgsql')->create('toko', function (Blueprint $table) {
             $table->id();
             $table->string('namatoko', 255);
-            $table->string('kontaktoko', 13);
+            $table->string('kontaktoko', 17);
             $table->foreignId('idalamat')->references('id')->on('alamat');
             $table->string('gambartoko', 255)->nullable();
             $table->foreignId('idadmin')->references('id')->on('admin');
