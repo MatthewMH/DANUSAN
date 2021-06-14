@@ -104,6 +104,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 ## Test Case
 ### Positive Case
+Pengujian Positif merupakan jenis pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang valid sebagai input.
 | No | Scenario | Pre-requisites | Steps | Expected Result | Actual Result | Status |  
 | -- | -------- | -------------- | ----- | --------------- | ------------- | ------ |
 | 1. | User login dengan akun yang valid | User mengakses web Danusan | User mengakses halaman login, masukkan email dan password yang telah terdaftar, lalu klik Login | Login berhasil dan user diarahkan ke halaman home | As expected | Pass :white_check_mark: |
@@ -114,6 +115,16 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | 6. | User dapat menghapus toko dari Simpanan | User telah login dan telah menyimpan setidaknya 1 toko | User mengakses halaman home, memilih salah satu toko yang hendak dihapus dari simpanan, lalu klik tombol delete.  Proses ini hanya dapat dilakukan apabila toko telah disimpan sebelumnya | Berhasil menghapus toko yang telah disimpan dari list simpanan pada halaman Saved| As expected | Pass :white_check_mark: |
 | 7. | User dapat melakukan update foto profil dengan menambahkan file berekstensi jpg, jpeg, dan png | User telah login dan telah berada di halaman Sunting Profil | User mengakses halaman home, lalu mengetik tombol edit disebelah username yang tertera pada kiri atas. | Berhasil menambahkan foto profil baru | As expected | Pass :white_check_mark: | 
 | 8. | User dapat menggunakan fitur search untuk mencari toko yang ada | User telah login dan berada di halaman home | User mengakses halaman home, lalu mengetikkan nama toko yang diinginkan pada search bar | Berhasil menunjukkan toko yang dimaksud | As expected | Pass :white_check_mark: |
+
+### Negative Cast
+Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang tidak valid atau tidak tepat sebagai input.
+| No | Scenario | Pre-requisites | Steps | Expected Result | Actual Result | Status |  
+| -- | -------- | -------------- | ----- | --------------- | ------------- | ------ |
+| 1. | User login dengan akun yang tidak valid | User mengakses web Danusan | User mengakses halaman login, masukkan email dan password yang telah terdaftar, lalu klik Login | Memunculkan pesan error sesuai penyebabnya | As expected | Pass :white_check_mark: |
+| 2. | User mendaftarkan email, username, nomor telepon, dan password dengan isi yang tidak valid saat pendaftaran | User mengakses web Danusan | User mengakses halaman sign up lalu masukkan email, username, nomor telepon, dan password lalu klik sign up | Sign up gagal, memunculkan pesan error sesuai penyebabnya | As expected | Pass :white_check_mark: |
+| 3. | User dapat membeli danusan dengan memilih toko, kemudian memilih item danusan yang hendak dibeli tidak dengan kelipatan 10  | User telah login | User mengakses halaman toko, klik button add to cart untuk memilih item danusan, dan klik button buy jika telah menentukan item dan jumlahnya | Pembelian gagal,sistem akan memunculkan jumlah minimal pembelian| As expected | Pass :white_check_mark:|
+| 4. | User melakukan update foto profil dengan menambahkan file yang bukan berekstensi jpg, jpeg, dan png | User telah login dan telah berada di halaman Sunting Profil | User mengakses halaman home, lalu mengetik tombol edit disebelah username yang tertera pada kiri atas| Berhasil memunculkan pesan error sesuai penyebabnya | As expected | Pass :white_check_mark: |
+| 5. | User menggunakan fitur search untuk mencari toko yang tidak ada | User telah login dan berada di halaman home | User mengakses halaman home, lalu mengetikkan nama toko yang diinginkan pada search bar | Berhasil menunjukkan tulisan “Store not found!” | As expected | Pass :white_check_mark: |
 
 ## Fitur Utama yang Dikembangkan
 | Fitur                  | Fungsi                                                                                         |
