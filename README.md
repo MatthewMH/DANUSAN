@@ -74,7 +74,8 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 <img width="349" alt="use case loginnnn" src="https://user-images.githubusercontent.com/79049671/121843641-dc0be200-cd0c-11eb-9901-8ff209ac54be.png">
 
 ### Use Case Description : Proses Pembelian Danusan
-![Use Case Pembelian](https://user-images.githubusercontent.com/79038435/121777734-d5bb2000-cbbd-11eb-80aa-79ffa095fc93.png)
+![use case- pembelian](https://user-images.githubusercontent.com/79038435/121857107-72e19a00-cd1f-11eb-8b44-99f6dc8d6f07.png)
+
 
 ### Use Case Description : Proses Melihat Riwayat Transaksi
 ![diagram-Page-6 (1)](https://user-images.githubusercontent.com/71091549/121614343-a6ef5d80-ca88-11eb-9aae-386c4ef5b7d2.png)
@@ -119,7 +120,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | Fitur Login            | User dapat masuk ke dalam web aplikasi dan melakukan transaksi dengan mengisi username dan password jika sudah mendaftarkan akun |       
 | Fitur Edit Profile     | User dapat mengupload foto profil diri ke dalam website dan mengeditnya |
                                                                                                
-### Hasil Implementasi
+## Hasil Implementasi
 1. Landing Page
 ![Screenshot from 2021-06-14 13-38-11](https://user-images.githubusercontent.com/63547189/121853481-2d22d280-cd1b-11eb-85ef-0594450d2654.png)
 
