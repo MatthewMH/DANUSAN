@@ -121,34 +121,42 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | Fitur Edit Profile     | User dapat mengupload foto profil diri ke dalam website dan mengeditnya |
                                                                                                
 ## Hasil Implementasi
-1. Landing Page
+**1. Landing Page**
+
 ![Screenshot from 2021-06-14 13-38-11](https://user-images.githubusercontent.com/63547189/121853481-2d22d280-cd1b-11eb-85ef-0594450d2654.png)
 
-2. Sign Up!
+**2. Sign Up**
+
 ![Screenshot from 2021-06-14 13-38-24](https://user-images.githubusercontent.com/63547189/121853532-3a3fc180-cd1b-11eb-9f87-c89c8a294349.png)
 
-3. Login
+**3. Login**
+
 ![Screenshot from 2021-06-14 13-38-29](https://user-images.githubusercontent.com/63547189/121853565-4592ed00-cd1b-11eb-9a85-77ffa0bf7a9f.png)
 
-4. Edit Profile
+**4. Edit Profile**
+
 ![Screenshot from 2021-06-14 14-09-32](https://user-images.githubusercontent.com/63547189/121853623-53e10900-cd1b-11eb-8709-30e217b2ed52.png)
 
-5. Tampilan Toko
+**5. Tampilan Toko**
+
 ![Screenshot from 2021-06-14 14-26-12](https://user-images.githubusercontent.com/63547189/121854731-bedf0f80-cd1c-11eb-88c4-7490613ff8f9.png)
 
-6. Proses Pembelian
+**6. Proses Pembelian**
+
 ![Screenshot from 2021-06-14 14-26-23](https://user-images.githubusercontent.com/63547189/121854791-d3230c80-cd1c-11eb-98e0-b396e2ab36ea.png)
 
-7. Konfirmasi Pembelian
+**7. Konfirmasi Pembelian**
+
 ![Screenshot from 2021-06-14 14-26-31](https://user-images.githubusercontent.com/63547189/121854853-e3d38280-cd1c-11eb-925a-89282f4ddc12.png)
 
-8. Riwayat Transaksi
+**8. Riwayat Transaksi**
+
 ![Screenshot from 2021-06-14 14-26-38](https://user-images.githubusercontent.com/63547189/121854921-f51c8f00-cd1c-11eb-879b-fbaaa79c02dc.png)
 
-9. Menu Saved
+**9. Menu Saved**
 ![Screenshot from 2021-06-14 14-35-30](https://user-images.githubusercontent.com/63547189/121855691-d79bf500-cd1d-11eb-95ec-b4c5c2328258.png)
 
-10. Hapus Toko (Asumsi Toko Telah Tersimpan)
+**10. Hapus Toko (Asumsi Toko Telah Tersimpan)**
 ![Screenshot from 2021-06-14 14-27-05](https://user-images.githubusercontent.com/63547189/121855026-14b3b780-cd1d-11eb-820c-41682cec1c62.png)
 
 
