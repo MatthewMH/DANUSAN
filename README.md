@@ -141,7 +141,15 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 | Fitur Sign Up          | User dapat membuat aku dengan mendaftarkan username, password, dan nomor telepon |
 | Fitur Login            | User dapat masuk ke dalam web aplikasi dan melakukan transaksi dengan mengisi username dan password jika sudah mendaftarkan akun |       
 | Fitur Edit Profile     | User dapat mengupload foto profil diri ke dalam website dan mengeditnya |
-                                                                                               
+
+## CRUD
+| CRUD              | Fungsi                                                                                            |
+| ----------------- | ----------------------------------------------------------------------------------------------    |
+| Create            | 1. User membuat akun dengan melakukan proses sign up <br> 2. Admin membuat akun dengan mengisi username dan pin<br> 3. Admin menambahkan toko pada database untuk ditampilkan pada menu home|
+| Read              | 1. User dapat melihat homepage setelah login <br> 2. User dapat melihat toko makanan yang tersedia pada halaman toko <br> 3. User dapat melihat hasil fitur pencarian toko pada halaman home yang telah diambil dari database <br> 4. User dapat melihat riwayat transaksi yang pernah dilakukannya <br> 5. User dapat melihat toko yang disimpan pada menu Saved <br> 6. Admin dapat melihat halaman admin input|                                                               
+| Update            | 1. User dapat mengubah foto profil pada halaman web DANUSAN <br> 2. Admin dapat menambah dan mengurangi jumlah banyaknya makanan yang dijual pada toko <br> 3. User dapat menambahkan sebuah toko ke dalam list simpanan pada menu Saved|              
+| Delete            | 1. User dapat menghapus toko dari menu simpanan <br> 2. Admin dapat menghapus toko yang sudah tidak lagi menggunakan DANUSAN langsung dari databasenya|
+                      
 ## Hasil Implementasi
 **1. Landing Page**
 
