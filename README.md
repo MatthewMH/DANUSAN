@@ -102,6 +102,13 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Activity Diagram : Sunting Profil
 ![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
 
+## Test Case
+### Positive Case
+| No | Scenario | Pre-requisites | Steps | Expected Result | Actual Result | Status |
+| -- | -------- | -------------- | ----- | --------------- | ------------- | ------ |
+| 1. | User login dengan akun yang valid | User mengakses web Danusan | User mengakses halaman login, masukkan email dan password yang telah terdaftar, lalu klik Login | Login berhasil dan user diarahkan ke halaman home | As expected | Pass :white_check_mark: |
+| 2. | User mendaftarkan email, username, nomor telepon, dan password yang valid saat pendaftaran | User mengakses web Danusan | User mengakses halaman sign up lalu masukkan email, username, nomor telepon, dan password lalu klik sign up | Sign up berhasil dan user diarahkan ke menu login | As expected | Pass :white_check_mark: |
+
 
 
 ## Fitur Utama yang Dikembangkan
@@ -154,9 +161,11 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ![Screenshot from 2021-06-14 14-26-38](https://user-images.githubusercontent.com/63547189/121854921-f51c8f00-cd1c-11eb-879b-fbaaa79c02dc.png)
 
 **9. Menu Saved**
+
 ![Screenshot from 2021-06-14 14-35-30](https://user-images.githubusercontent.com/63547189/121855691-d79bf500-cd1d-11eb-95ec-b4c5c2328258.png)
 
 **10. Hapus Toko (Asumsi Toko Telah Tersimpan)**
+
 ![Screenshot from 2021-06-14 14-27-05](https://user-images.githubusercontent.com/63547189/121855026-14b3b780-cd1d-11eb-820c-41682cec1c62.png)
 
 
