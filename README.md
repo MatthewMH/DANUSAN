@@ -116,7 +116,7 @@ Pengujian Positif merupakan jenis pengujian yang dilakukan pada aplikasi perangk
 | 7. | User dapat melakukan update foto profil dengan menambahkan file berekstensi jpg, jpeg, dan png | User telah login dan telah berada di halaman Sunting Profil | User mengakses halaman home, lalu mengetik tombol edit disebelah username yang tertera pada kiri atas. | Berhasil menambahkan foto profil baru | As expected | Pass :white_check_mark: | 
 | 8. | User dapat menggunakan fitur search untuk mencari toko yang ada | User telah login dan berada di halaman home | User mengakses halaman home, lalu mengetikkan nama toko yang diinginkan pada search bar | Berhasil menunjukkan toko yang dimaksud | As expected | Pass :white_check_mark: |
 
-### Negative Cast
+### Negative Case
 Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat lunak dengan memberikan kumpulan data yang tidak valid atau tidak tepat sebagai input.
 | No | Scenario | Pre-requisites | Steps | Expected Result | Actual Result | Status |  
 | -- | -------- | -------------- | ----- | --------------- | ------------- | ------ |
