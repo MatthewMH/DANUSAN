@@ -7,6 +7,8 @@ Anggota Kelompok 16:
 3. Amira Nabila Rakhmat
 4. Ainun Fadhilah Az Zahida
 
+[[_TOC_]]
+
 # Latar Belakang
 
    Fundraising merupakan proses mempengaruhi masyarakat baik perorangan atau lembaga agar menyalurkan dana, sumber daya non-dana, simpati atau dukungan kepada komunitas. Di perguruan tinggi, banyak mahasiswa yang mulai aktif dalam kegiatan kepanitiaan atau organisasi. Kepanitiaan maupun organisasi di kampus akan mengadakan suatu kegiatan yang terkadang dananya tidak tersedia atau tidak mencukupi. Pemenuhan kebutuhan dana tersebut sering kali dilakukan dengan berjualan makanan kecil (danusan).    
