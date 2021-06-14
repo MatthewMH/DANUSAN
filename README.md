@@ -7,22 +7,26 @@ Anggota Kelompok 16:
 3. Amira Nabila Rakhmat
 4. Ainun Fadhilah Az Zahida
 
-### Latar Belakang
+# Latar Belakang
 
    Fundraising merupakan proses mempengaruhi masyarakat baik perorangan atau lembaga agar menyalurkan dana, sumber daya non-dana, simpati atau dukungan kepada komunitas. Di perguruan tinggi, banyak mahasiswa yang mulai aktif dalam kegiatan kepanitiaan atau organisasi. Kepanitiaan maupun organisasi di kampus akan mengadakan suatu kegiatan yang terkadang dananya tidak tersedia atau tidak mencukupi. Pemenuhan kebutuhan dana tersebut sering kali dilakukan dengan berjualan makanan kecil (danusan).    
     Pada masyarakat, penggalangan dana biasanya dilakukan untuk kegiatan tertentu. Penggalangan dana di masyarakat pada umumnya lebih kepada sumbangan sukarela, namun tak sedikit pula penggalangan dana untuk acara umum yang biasanya dilakukan dengan danusan. Panitia acara sekolah yang hendak mengadakan suatu kegiatan yang membutuhkan dana, misal perpisahan kelas, outbond, dan lain lain pada umumnya akan melakukan penggalangan dana dengan berjualan makanan kecil pada teman sebayanya. Selain itu, penggalangan dana juga dilakukan untuk memenuhi kebutuhan hidup. Tak sedikit pula orang yang berjualan makanan kecil di kantornya sebagai pekerjaan sampingan.
     Namun, banyak kepanitiaan, organisasi, maupun usaha perorangan yang kurang informasi mengenai distributor makanan danusan baik dari segi harga maupun lokasi distributor. Masalah tersebut yang nantinya akan terselesaikan dengan adanya web Danusan. Pada web ini, baik anggota organisasi, kepanitiaan, usaha sampingan perorangan, dan sebagainya akan dengan mudah menemukan distributor makanan danusan di sekitarnya. 
 
-### Tujuan
+
+# Tujuan
 
 1. Mempermudah kontak antara pemilik toko makanan danusan dengan seseorang yang hendak berjualan danusan.
 2. Mempermudah seseorang yang hendak danusan dalam mencari toko makanan kecil beserta harga dan lokasi tokonya.
 3. Mempermudah pemilik toko makanan danusan untuk mendapatkan pelanggan.
 
-### User Profil
+
+
+# User Analysis
+## User Profil
 Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tujuan namun kebingungan mencari toko yang menyediakan berbagai macam makanan kecil untuk dijual. 
 
-### User Story
+## User Story
 1. Sebagai seseorang yang ingin danusan, agar dapat menggunakan layanan yang ditawarkan pada web, saya dapat masuk ke web dari landing page dengan menekan tombol Login. Apabila saya belum memiliki akun, saya dapat mendaftarkan diri melalui tombol Sign Up pada landing page. 
 2. Sebagai seseorang yang ingin danusan, agar dapat mengetahui lokasi toko yang menjual makanan danusan, saya dapat masuk ke halaman Pilihan Toko untuk melihat toko di sekitar saya yang menjual makanan danusan serta lokasi pengambilan makanan yang saya pesan.
 3. Sebagai seseorang yang ingin danusan, agar dapat mengetahui perkiraan modal yang dibutuhkan, saya dapat melihat harga yang tertera pada gambar makanan di masing masing halaman Toko. 
@@ -31,7 +35,9 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 6. Sebagai seseorang yang ingin danusan, agar dapat menjadikan salah satu toko sebagai langganan, saya dapat menyimpan toko tersebut pada menu Simpanan di halaman Pilihan Toko. 
 7. Sebagai seseorang yang ingin danusan atau penjual, agar dapat memastikan akun yang saya miliki tidak dibajak orang lain, saya dapat log out setelah selesai dengan keperluan saya. 
 
-### Lingkungan Pengembangan
+
+
+# Lingkungan Pengembangan
 1. Hardware
     - Processor: Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz
     - Memory : 4 GB DDR4
@@ -47,38 +53,38 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
     - Collaboration Platform: Github, Trello
     - Programming Language : PHP
     - Visual Editing: Figma
-
-### Arsitektur Aplikasi
+    
+    
+    
+# Hasil dan Pembahasan
+## Arsitektur Aplikasi
 ![Arsitektur Aplikasi](https://user-images.githubusercontent.com/63547189/121708574-e9a14c00-cb01-11eb-98a4-9fdbedcd9c9d.png)
 
-
-### ERD Database
+## ERD Database
 ![ERD Database DANUSAN](https://user-images.githubusercontent.com/63547189/121847412-bda8e500-cd12-11eb-8611-21d17e53bcdc.png)
 
-
-### Class Diagram
+## Class Diagram
 ![class-diagram](https://user-images.githubusercontent.com/79038435/121805239-93a0e580-cc74-11eb-9243-cdb5390b679b.png)
 
-### Use Case Diagram
+## Use Case Diagram
 ![Use Case Diagram DANUSAN](https://user-images.githubusercontent.com/63547189/121763744-98787300-cb68-11eb-931d-3bc12133e4fa.png)
 
-## Use Case Description : Proses Memasukkan Akun
+### Use Case Description : Proses Memasukkan Akun
 <img width="349" alt="use case loginnnn" src="https://user-images.githubusercontent.com/79049671/121843641-dc0be200-cd0c-11eb-9901-8ff209ac54be.png">
 
-## Use Case Description : Proses Pembelian Danusan
+### Use Case Description : Proses Pembelian Danusan
 ![Use Case Pembelian](https://user-images.githubusercontent.com/79038435/121777734-d5bb2000-cbbd-11eb-80aa-79ffa095fc93.png)
 
-## Use Case Description : Proses Melihat Riwayat Transaksi
+### Use Case Description : Proses Melihat Riwayat Transaksi
 ![diagram-Page-6 (1)](https://user-images.githubusercontent.com/71091549/121614343-a6ef5d80-ca88-11eb-9aae-386c4ef5b7d2.png)
 
-## Use Case Description : Proses Menyimpan Toko
+### Use Case Description : Proses Menyimpan Toko
 ![User Case Description](https://user-images.githubusercontent.com/71091549/121340682-10b51d80-c94a-11eb-96cc-10580bbd0511.png)
 
-## Use Case Description : Proses Sunting Profil
+### Use Case Description : Proses Sunting Profil
 ![Use Case Description](https://user-images.githubusercontent.com/63547189/121527487-a8873a00-ca24-11eb-940c-9cf4b1c5ae2a.png)
 
-
-
+## Activity Diagram
 ### Acitivy Diagram : Memasukkan Akun
 ![activitydiagram (2)](https://user-images.githubusercontent.com/79049671/121781416-cbede880-cbce-11eb-91bf-1a43d6f78952.png)
 
@@ -94,7 +100,9 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Activity Diagram : Sunting Profil
 ![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
 
-### Fitur Utama yang Dikembangkan
+
+
+## Fitur Utama yang Dikembangkan
 | Fitur                  | Fungsi                                                                                         |
 | ---------------------- | ---------------------------------------------------------------------------------------------- |
 | Fitur Pembelian  Makanan | User dapat memilih toko yang diinginkan kemudian akan diarahkan ke halaman toko yang diinginkan<br>kemudian dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item<br>danusan yang ingin dibeli dan akan ditampilkan total harga pembelian|                             
@@ -103,7 +111,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | Fitur Riwayat Transaksi | User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate<br>status dari transaksi yang dikakukan oleh user |
 | Fitur Input Toko | Admin dapat memasukkan toko dan daftar item danusan toko beserta nomor telepon untuk ditampilkan kedalam website |
 
-### Fitur Tambahan
+## Fitur Tambahan
 | Fitur                  | Fungsi                                                                                         |
 | ---------------------- | ---------------------------------------------------------------------------------------------- |
 | Fitur Sign Up          | User dapat membuat aku dengan mendaftarkan username, password, dan nomor telepon |
