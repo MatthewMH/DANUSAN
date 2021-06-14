@@ -4,7 +4,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lets+Espresso&display=swap" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
 	<link href="{{ URL::asset('css/simpanancss/simpanan.css') }}" rel="stylesheet" />
-	<title>Riwayat Pemesanan</title>
+	<title>Simpanan</title>
 </head>
 <body>
 	<a href = "{{ url('/home/'.Auth()->user()->id) }}">
