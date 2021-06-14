@@ -63,7 +63,7 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ![Use Case Diagram DANUSAN](https://user-images.githubusercontent.com/63547189/121763744-98787300-cb68-11eb-931d-3bc12133e4fa.png)
 
 ## Use Case Description : Proses Memasukkan Akun
-<img width="343" alt="use case login" src="https://user-images.githubusercontent.com/79049671/121843094-d792f980-cd0b-11eb-9083-c66444167144.png">
+<img width="349" alt="use case loginnnn" src="https://user-images.githubusercontent.com/79049671/121843641-dc0be200-cd0c-11eb-9901-8ff209ac54be.png">
 
 ## Use Case Description : Proses Pembelian Danusan
 ![Use Case Pembelian](https://user-images.githubusercontent.com/79038435/121777734-d5bb2000-cbbd-11eb-80aa-79ffa095fc93.png)
