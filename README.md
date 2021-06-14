@@ -51,6 +51,25 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Arsitektur Aplikasi
 ![Arsitektur Aplikasi](https://user-images.githubusercontent.com/63547189/121708574-e9a14c00-cb01-11eb-98a4-9fdbedcd9c9d.png)
 
+### Fungsi CRUD 
+- Create
+1. User membuat akun dengan melakukan proses sign up
+2. Admin menambahkan toko pada database untuk ditampilkan pada menu home
+
+- Read
+1. User dapat melihat toko makanan yang tersedia pada halaman toko
+2. User dapat melihat hasil fitur pencarian toko pada halaman home yang telah diambil dari database
+3. User dapat melihat riwayat transaksi yang pernah dilakukannya
+4. User dapat melihat toko yang disimpan pada menu Saved
+
+- Update
+1. User dapat mengubah foto profil pada halaman web DANUSAN
+2. Admin dapat menambah dan mengurangi jumlah banyaknya makanan yang dijual pada toko 
+3. User dapat menambahkan sebuah toko ke dalam list simpanan pada menu Saved
+ 
+- Delete
+1. User dapat menghapus toko dari menu simpanan
+2. Admin dapat menghapus toko yang sudah tidak lagi menggunakan DANUSAN langsung dari databasenya
 
 ### ERD Database
 ![ERD Database DANUSAN(![Proses Sunting Profile](https://user-images.githubusercontent.com/63547189/121525905-12064900-ca23-11eb-8c70-8d451e5a8217.png)
@@ -95,11 +114,17 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
 
 ### Fitur Utama yang Dikembangkan
-| Fitur                  | Fungsi                                                                                          |
-| ---------------------- | ----------------------------------------------------------------------------------------------  |
-| Fitur Pilih Toko       | User dapat memilih toko yang diinginkan kemudian akan diarahkan ke halaman toko yang diinginkan |                             
-| Fitur Search Toko      | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian<br>dan ditampilkan toko yang dicari atau hasil tidak ditemukan |     
-| Fitur Simpanan Toko    | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang<br>disimpan |
-| Fitur Add to Cart      | User dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item<br>danusan yang ingin dibeli dan akan ditampilkan total harga pembelian |                
-| Fitur Riwayat Transaksi| User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate<br>status dari transaksi yang dikakukan oleh user |                                       
+| Fitur                  | Fungsi                                                                                         |
+| ---------------------- | ---------------------------------------------------------------------------------------------- |
+| Fitur Pilih Toko       | User dapat memilih toko yang diinginkan kemudian akan diarahkan ke halaman toko yang diinginkan|                             
+| Fitur Search Toko      | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian      |
+|                        | dan ditampilkan toko yang dicari atau hasil tidak ditemukan                                    |     
+| Fitur Simpanan Toko    | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang       |
+|                        | disimpan                                                                                       |
+| Fitur Add to Cart      | User dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item   |
+|                        | danusan yang ingin dibeli dan akan ditampilkan total harga pembelian                           |                
+| Fitur Riwayat Transaksi| User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate| 
+|                        | status dari transaksi yang dikakukan oleh user                                                 |                                       
                                                                                                
+| Paragraph                                             | Text        |
+| This is a really long paragraph. Here is the rest of the really<br>long paragraph. All my awesome words are in this one cell. | Chapter 1   |
