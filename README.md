@@ -53,8 +53,8 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 
 
 ### ERD Database
-![ERD Database DANUSAN](https://user-images.githubusercontent.com/63547189/121844243-df539d80-cd0d-11eb-8a14-9b3e01994e45.png)
-
+![ERD Database DANUSAN(![Proses Sunting Profile](https://user-images.githubusercontent.com/63547189/121525905-12064900-ca23-11eb-8c70-8d451e5a8217.png)
+3)](https://user-images.githubusercontent.com/79049671/120925572-559b4300-c703-11eb-9356-f595816bdc15.png)
 
 ### Class Diagram
 ![class-diagram](https://user-images.githubusercontent.com/79038435/121805239-93a0e580-cc74-11eb-9243-cdb5390b679b.png)
@@ -107,3 +107,5 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | Fitur Riwayat Transaksi| User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate| 
 |                        | status dari transaksi yang dikakukan oleh user                                                 |                                       
                                                                                                
+| Paragraph                                             | Text        |
+| This is a really long paragraph. Here is the rest of the really<br>long paragraph. All my awesome words are in this one cell. | Chapter 1   |
