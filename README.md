@@ -91,4 +91,23 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 ### Activity Diagram : Sunting Profil
 ![image](https://user-images.githubusercontent.com/63547189/121526163-5691e480-ca23-11eb-96a7-865f3d456792.png)
 
+### Fitur Utama yang Dikembangkan
+| Fitur                  | Fungsi                                          |
+| ---------------------- | ------------------------------------------------|
+| Fitur Pilih Toko       | User dapat memilih toko yang diinginkan kemudian|
+|                        | akan diarahkan ke halaman toko yang diinginkan  |
+| Fitur Search Toko      | User dapat mencari toko berdasarkan keyword     |
+|                        | kemudian diarahkan ke halaman hasil pencarian   |
+|                        | dan ditampilkan toko yang dicari atau hasil     |     
+|                        | tidak ditemukan                                 |
+| Fitur Simpanan Toko    | User dapat menyimpan toko, menghapus simpanan,  |
+|                        | dan sewaktu-waktu dapat melihat toko yang       |
+|                        | disimpan                                        |
+| Fitur Add to Cart      | User dapat memilih item danusan pada halaman    |
+|                        | toko kemudian user dapat menentukan jumlah item | 
+|                        | danusan yang ingin dibeli dan akan ditampilkan  |
+|                        | total harga pembelian                           |
+| Fitur Riwayat Transaksi| User dapat melihat riwayat user dalam melakukan |
+|                        | transaksi pembelian dan sistem dapat mengupdate |
+|                        | status dari transaksi yang dikakukan oleh user  |
 
