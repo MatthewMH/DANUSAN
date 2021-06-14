@@ -119,3 +119,16 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | Fitur Login            | User dapat masuk ke dalam web aplikasi dan melakukan transaksi dengan mengisi username dan password jika sudah mendaftarkan akun |       
 | Fitur Edit Profile     | User dapat mengupload foto profil diri ke dalam website dan mengeditnya |
                                                                                                
+### Proses Implementasi
+1. Landing Page
+![Screenshot from 2021-06-14 13-38-11](https://user-images.githubusercontent.com/63547189/121853481-2d22d280-cd1b-11eb-85ef-0594450d2654.png)
+
+2. Sign Up!
+![Screenshot from 2021-06-14 13-38-24](https://user-images.githubusercontent.com/63547189/121853532-3a3fc180-cd1b-11eb-9f87-c89c8a294349.png)
+
+3. Login
+![Screenshot from 2021-06-14 13-38-29](https://user-images.githubusercontent.com/63547189/121853565-4592ed00-cd1b-11eb-9a85-77ffa0bf7a9f.png)
+
+4. Edit Profile
+![Screenshot from 2021-06-14 14-09-32](https://user-images.githubusercontent.com/63547189/121853623-53e10900-cd1b-11eb-8709-30e217b2ed52.png)
+
