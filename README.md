@@ -101,7 +101,8 @@ Target dari aplikasi kita adalah penggalang dana dari berbagai kalangan dan tuju
 | Fitur Search Toko      | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian      |
 |                        | dan ditampilkan toko yang dicari atau hasil tidak ditemukan                                    |     
 | Fitur Simpanan Toko    | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang       |
-|                        | disimpan                                                                                       |                                         | Fitur Add to Cart      | User dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item   |
+|                        | disimpan                                                                                       |
+| Fitur Add to Cart      | User dapat memilih item danusan pada halaman toko kemudian user dapat menentukan jumlah item   |
 |                        | danusan yang ingin dibeli dan akan ditampilkan total harga pembelian                           |                
 | Fitur Riwayat Transaksi| User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate| 
 |                        | status dari transaksi yang dikakukan oleh user                                                 |                                       
