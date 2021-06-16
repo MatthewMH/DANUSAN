@@ -129,10 +129,10 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 ## Fitur Utama yang Dikembangkan
 | Fitur                  | Fungsi                                                                                         |
 | ---------------------- | ---------------------------------------------------------------------------------------------- |
-| Fitur Pembelian  Makanan | User dapat memilih toko yang diinginkan dan akan diarahkan ke halaman toko.<br>User juga dapat memilih item danusan pada halaman toko dan menentukan jumlah item<br>danusan yang ingin dibeli  untuk kemudian ditampilkan total harga pembelian|                             
-| Fitur Search Toko | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian<br>dan ditampilkan toko yang dicari atau hasil tidak ditemukan |     
-| Fitur Simpanan Toko | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang<br>disimpan |                
-| Fitur Riwayat Transaksi | User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate<br>status dari transaksi yang dikakukan oleh user |
+| Fitur Pembelian  Makanan | User dapat memilih toko yang diinginkan dan akan diarahkan ke halaman toko.<br>User juga dapat memilih item danusan pada halaman toko dan menentukan jumlah item danusan yang ingin dibeli  untuk kemudian ditampilkan total harga pembelian|                             
+| Fitur Search Toko | User dapat mencari toko berdasarkan keyword kemudian diarahkan ke halaman hasil pencarian dan ditampilkan toko yang dicari atau hasil tidak ditemukan |     
+| Fitur Simpanan Toko | User dapat menyimpan toko, menghapus simpanan, dan sewaktu-waktu dapat melihat toko yang disimpan |                
+| Fitur Riwayat Transaksi | User dapat melihat riwayat user dalam melakukan transaksi pembelian dan sistem dapat mengupdate status dari transaksi yang dikakukan oleh user |
 | Fitur Input Toko | Admin dapat memasukkan toko dan daftar item danusan toko beserta nomor telepon untuk ditampilkan kedalam website |
 
 ## Fitur Tambahan
