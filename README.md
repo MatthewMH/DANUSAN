@@ -150,6 +150,14 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 | Update            | 1. User dapat mengubah foto profil pada halaman web DANUSAN <br> 2. Admin dapat menambah dan mengurangi jumlah banyaknya makanan yang dijual pada toko <br> 3. User dapat menambahkan sebuah toko ke dalam list simpanan pada menu Saved|              
 | Delete            | 1. User dapat menghapus toko dari menu simpanan <br> 2. Admin dapat menghapus toko yang sudah tidak lagi menggunakan DANUSAN langsung dari databasenya|
                       
+## Fitur Yang Dapat Dikembangkan Kedepannya
+1. Fitur untuk pengguna yang lain yaitu pemilik toko, agar pemilik toko dapat menambahkan barang dan harganya sendiri
+2. Fitur pembayaran via bank sehingga tidak harus cash on delivery
+3. Fitur melihat lokasi toko via peta
+4. Fitur chat antara pembeli dan pemilik toko
+5. Fitur rating dan testimoni yang diberikan untuk pemilik toko oleh orang danusan
+
+
 ## Hasil Implementasi
 **1. Landing Page**
 
