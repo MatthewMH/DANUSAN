@@ -149,13 +149,6 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 | Read              | 1. User dapat melihat homepage setelah login <br> 2. User dapat melihat toko makanan yang tersedia pada halaman toko <br> 3. User dapat melihat hasil fitur pencarian toko pada halaman home yang telah diambil dari database <br> 4. User dapat melihat riwayat transaksi yang pernah dilakukannya <br> 5. User dapat melihat toko yang disimpan pada menu Saved <br> 6. Admin dapat melihat halaman admin input|                                                               
 | Update            | 1. User dapat mengubah foto profil pada halaman web DANUSAN <br> 2. Admin dapat menambah dan mengurangi jumlah banyaknya makanan yang dijual pada toko <br> 3. User dapat menambahkan sebuah toko ke dalam list simpanan pada menu Saved|              
 | Delete            | 1. User dapat menghapus toko dari menu simpanan <br> 2. Admin dapat menghapus toko yang sudah tidak lagi menggunakan DANUSAN langsung dari databasenya|
-                      
-## Fitur Yang Dapat Dikembangkan Kedepannya
-1. Fitur untuk pengguna yang lain yaitu pemilik toko, agar pemilik toko dapat menambahkan barang dan harganya sendiri
-2. Fitur pembayaran via bank sehingga tidak harus cash on delivery
-3. Fitur melihat lokasi toko via peta
-4. Fitur chat antara pembeli dan pemilik toko
-5. Fitur rating dan testimoni yang diberikan untuk pemilik toko oleh orang danusan
 
 
 ## Hasil Implementasi
@@ -199,7 +192,11 @@ Pengujian Negatif adalah metode pengujian yang dilakukan pada aplikasi perangkat
 
 ![Screenshot from 2021-06-14 14-27-05](https://user-images.githubusercontent.com/63547189/121855026-14b3b780-cd1d-11eb-820c-41682cec1c62.png)
 
-
-
+## Saran Pengembangan Aplikasi Kedepannya
+1. Mengembangkan fitur untuk pengguna yang lain yaitu pemilik toko, agar pemilik toko dapat menambahkan barang dan harganya sendiri
+2. Mengembangkan fitur pembayaran via bank sehingga tidak harus cash on delivery
+3. Mengembangkan fitur melihat lokasi toko via peta
+4. Mengembangkan fitur chat antara pembeli dan pemilik toko
+5. Mengembangkan fitur rating dan testimoni yang diberikan untuk pemilik toko oleh orang danusan
 
 
